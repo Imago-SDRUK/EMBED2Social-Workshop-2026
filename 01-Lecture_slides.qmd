@@ -1,0 +1,69 @@
+---
+title: _What are (geo-)embeddings and why should I care?_
+subtitle: _Embeddings for the rest of us_
+author: Dani Arribas-Bel
+format:
+  revealjs:
+    theme: assets/imago.scss
+    navigation-mode: linear
+    controls-layout: 'bottom-right'
+---
+
+# Intro <!-- (2min) -->
+
+## {.light}
+
+Blah blah
+
+This is [important]{.orange} and this is [a link concept]{.green}.
+
+Or mix: [navy]{.navy}, [blue]{.blue}, [green]{.green}, [orange]{.orange}
+
+## {.dark}
+
+Blah blah 
+
+This is [important]{.orange} and this is [a link concept]{.green}.
+
+Or mix: [navy]{.navy}, [blue]{.blue}, [green]{.green}, [orange]{.orange}
+
+# Context <!-- (5min) -->
+
+## We need more data more than ever!
+
+## We have more data than ever!
+
+## Mo Data, Mo Problems?
+
+# What are (geo-)embeddings? <!-- (20min) -->
+
+## Embeddings: a crash course
+
+## Auto-encoders
+
+## Deep auto-encoders
+
+## Foundation models (self-supervised)
+
+## Embeddings
+
+## Geo-embeddings
+
+## Why are the so hot in 2026? Spoiler: Geo-foundation models
+
+# Why should I care? <!-- (15min) -->
+
+## The promise
+
+## But...
+
+# Embeddings, what embeddings? An overview in early 2026 <!-- (10min) -->
+
+## Models
+
+## Embedding products
+
+## A geo-embeddings reading list (for distribution, not to cover in class)
+
+# Thanks!
+
