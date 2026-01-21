@@ -1,0 +1,106 @@
+/*-- scss:defaults --*/
+
+// Imago Color Palette
+$navy: #24226F;
+$grey: #B8BCD1;
+$green: #03CEA3;
+$orange: #FF8F42;
+$light-grey: #E2E5F3;
+$blue: #1877CF;
+$dark-grey: #8C91A8;
+$white: #FFFFFF;
+$imago-grey: #4a4a49;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+$font-family-sans-serif: 'Figtree', sans-serif;
+$presentation-font-size-root: 40px;
+$presentation-heading-font: 'Figtree', sans-serif;
+$presentation-heading-color: $imago-grey;
+
+// Default (light) theme colors
+$body-bg: $white;
+$body-color: $imago-grey;
+$link-color: $orange;
+$link-color-hover: darken($orange, 10%);
+
+// Progress bar and controls
+$presentation-menu-color: $imago-grey;
+
+/*-- scss:rules --*/
+
+// Progress bar styling
+.reveal .progress {
+  background: rgba($orange, 0.2);
+  color: $orange;
+}
+
+.reveal .progress span {
+  background: $orange;
+}
+
+// Menu/navigation controls
+.reveal .controls {
+  color: $imago-grey;
+}
+
+// Light slide class (default, but explicit)
+.reveal .slide.light,
+.reveal section.light {
+  background-color: $white;
+  color: $imago-grey;
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $imago-grey;
+  }
+  
+  a {
+    color: $orange;
+    
+    &:hover {
+      color: darken($orange, 10%);
+    }
+  }
+}
+
+// Dark slide class
+.reveal .slide.dark,
+.reveal section.dark {
+  background-color: $imago-grey;
+  color: $white;
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $white;
+  }
+  
+  a {
+    color: $green;
+    
+    &:hover {
+      color: lighten($green, 10%);
+    }
+  }
+}
+
+// Utility classes for inline text colors
+.navy { color: $navy !important; }
+.grey { color: $grey !important; }
+.green { color: $green !important; }
+.orange { color: $orange !important; }
+.light-grey { color: $light-grey !important; }
+.blue { color: $blue !important; }
+.dark-grey { color: $dark-grey !important; }
+.white { color: $white !important; }
+.imago-grey { color: $imago-grey !important; }
+
+// Background utility classes
+.bg-navy { background-color: $navy !important; }
+.bg-grey { background-color: $grey !important; }
+.bg-green { background-color: $green !important; }
+.bg-orange { background-color: $orange !important; }
+.bg-light-grey { background-color: $light-grey !important; }
+.bg-blue { background-color: $blue !important; }
+.bg-dark-grey { background-color: $dark-grey !important; }
+.bg-white { background-color: $white !important; }
+.bg-imago-grey { background-color: $imago-grey !important; }
