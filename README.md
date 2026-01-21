@@ -1,21 +1,47 @@
 
 <img src="assets/Imago-logo.png" alt="Imago Logo" width="300"/>
 
-# Imago Template Repository
+# Satellite Embeddings Workshop
 
-Welcome to the Imago template repository!  
-This repository provides a starting point for open, collaborative outputs that support the use of satellite imagery.
+This workshop is part of the project **Embedding embeddings across social research and policy (EMBED2Social)**. The aim of EMBED2Social is to accelerate and widen the adoption of image embedding technology in applied contexts, in order to unlock the potential of satellite data for research, policy, and decision-making.
 
-## 🚀 How to Use This Template
+This is a hands-on workshop introducing satellite (geo-)embeddings and their practical applications, co-organised by Imago and MHCLG. The workshop focuses on how satellite embeddings can be used in real-world tasks such as semantic search, unsupervised learning, and predictive modelling, with live coding sessions in Python.
 
-1. **Click "Use this template"** at the top of the repository page to create your own project based on this template.
-2. **Update project details** such as the title, description, and contact information in this README.
-3. **Review and adapt the [CONTRIBUTING.md](CONTRIBUTING.md)** file to match your project's contribution process.
-4. **Set up repository features**:
-   - Update issue and pull request templates in `.github/ISSUE_TEMPLATE/` and `.github/pull_request_template.md` as needed.
-   - Configure the [All Contributors Bot](https://allcontributors.org/) for contributor recognition.
-5. **Replace or add your own code, data, and documentation** in the appropriate folders.
+## Workshop Details
 
+**Date:** Tuesday 27th January 2026  
+**Time:** 10:00 – 16:30  
+**Location:**  
+2 Marsham Street, London, SW1P 4DF  
+Room FG46  
+
+Key highlights include:
+
+- What geo-embeddings are and why they matter  
+- How to work with embeddings in practical, real-world scenarios  
+- Techniques for semantic search and predictive modelling  
+- Hands-on Python labs using satellite data  
+
+## Schedule
+
+| Time | Session |
+|------|--------|
+| 10:00 – 11:00 | Lecture I: What are geo-embeddings and why should I care |
+| 11:00 – 11:15 | Coffee break |
+| 11:15 – 12:30 | Lab I: Exploring geo-embeddings in the real world |
+| 12:30 – 13:30 | Lunch |
+| 13:30 – 14:30 | Lecture II: Where and how can I use geo-embeddings? |
+| 14:30 – 14:45 | Coffee break |
+| 14:45 – 16:30 | Lab II: Zero to hero on geo-embeddings |
+
+
+## Requirements
+
+To get the most out of the workshop, participants should:
+
+- Bring a laptop  
+- Have Python installed (Anaconda recommended)  
+- Be comfortable with basic Python (no prior experience with embeddings required)
 
 ## 🛠️ Contributing
 
