@@ -1,0 +1,6 @@
+# Introduction
+
+This workshop is part of the project Embedding embeddings across social research and policy (EMBED2Social). The aim of EMBED2Social is to accelerate and widen the adoption of image embedding technology in applied contexts, in order to unlock the potential of satellite data for research, policy, and decision-making.
+
+This is a hands-on workshop introducing satellite (geo-)embeddings and their practical applications, co-organised by Imago and MHCLG. The workshop focuses on how satellite embeddings can be used in real-world tasks such as semantic search, unsupervised learning, and predictive modelling, with live coding sessions in Python.
+
