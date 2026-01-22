@@ -9,7 +9,7 @@ book:
 
   page-footer:
     left: |
-      EMBED2Social | UKRI Imagery Data Service
+      EMBED2Social
     right: |
       This book was built with <a href="https://quarto.org/">Quarto</a>.
 
