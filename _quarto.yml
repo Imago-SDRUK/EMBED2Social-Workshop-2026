@@ -1,0 +1,30 @@
+project:
+  type: website
+  title: "EMBED2Social Workshop 2026"
+  resources:
+    - "*/slides/*"
+  output-dir: ./docs
+
+lang: en
+
+website:
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: 01-Lecture_slides.qmd
+        text: Lecture 1
+      - href: 02-Lecture_slides.qmd
+        text: Lecture 2
+    right:
+      - href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
+        text: GitHub
+
+format:
+  html:
+    theme: quartz
+    toc: true
+    code-fold: true
+
+execute:
+  freeze: auto
