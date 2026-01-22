@@ -25,8 +25,9 @@ book:
 format:
   html:
     theme: cosmo
-    include-in-header: |
-      <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
+    include-in-header:
+      - text: |
+          <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
   pdf:
     documentclass: scrreprt
 
