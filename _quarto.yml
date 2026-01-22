@@ -1,32 +1,39 @@
 project:
-  type: website
+  type: book
+  output-dir: docs
+
+book:
   title: "EMBED2Social Workshop 2026"
-  resources:
-    - "*/slides/*"
-  output-dir: ./docs
+  author: "EMBED2Social Imago Team"
+  date: today
 
-lang: en
+  page-footer:
+    left: |
+      EMBED2Social
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
 
-website:
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: 01-Lecture_slides.qmd
-        text: Lecture 1
-      - href: 02-Lecture_slides.qmd
-        text: Lecture 2
-    right:
-      - href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
-        text: GitHub
+  repo-url: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
+  repo-branch: main
+  repo-actions: [edit, issue]
+
+  chapters:
+    - index.qmd
+    - 01-Lecture_slides.qmd
+    - 02-Lecture_slides.qmd
+    - resources.qmd
+    - about.qmd
+
+  include-in-header:
+    text: <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
 
 format:
   html:
-    theme: quartz
-    toc: true
-    code-fold: true
-    include-in-header:
-      text: <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
 
-execute:
-  freeze: auto
+editor: visual
+
+# Website URL for reference
+url: https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/
