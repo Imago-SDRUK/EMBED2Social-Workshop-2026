@@ -194,7 +194,7 @@ Academia:
 
 [[`imago.ac.uk`]{.orange}](https://imago.ac.uk)
 
-[🏠](./index)
+[🏠](./Lectures.html)
 
 # References {.scrollable}
 

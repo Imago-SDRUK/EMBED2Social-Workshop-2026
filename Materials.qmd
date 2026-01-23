@@ -1,0 +1,21 @@
+# Materials
+
+## Lectures
+
+### Lecture I
+
+- [Slides](01-Lecture_slides.html)
+- [PDF print](01-Lecture_slides.html?print-pdf)
+
+### Lecture II
+
+- [Slides](02-Lecture_slides.html)
+- [PDF print](02-Lecture_slides.html?print-pdf)
+
+## Labs
+
+### Lab I
+
+- [Similarity explorer tool](assets/imago-similarity-explorer.html)
+
+### Lab II
