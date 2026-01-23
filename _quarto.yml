@@ -9,7 +9,7 @@ website:
 
   page-footer:
     center: |
-      [Imago](https://imago.ac.uk), part of the [Smart Data Research UK](https://www.sdruk.ukri.org/) family.
+      [[Imago]{.green}](https://imago.ac.uk), part of the [[Smart Data Research UK]{.blue}](https://www.sdruk.ukri.org/) family.
 
   repo-url: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
   repo-branch: main
@@ -33,7 +33,7 @@ format:
   html:
     theme:
       - cosmo
-      - assets/imago-theme.scss
+      - assets/imago.scss
     include-in-header:
       - text: |
           <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
