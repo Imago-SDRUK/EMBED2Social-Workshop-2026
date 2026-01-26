@@ -17,7 +17,7 @@ $imago-grey: #4a4a49;
 $font-family-sans-serif: 'Figtree', sans-serif;
 $presentation-font-size-root: 40px;
 $presentation-heading-font: 'Figtree', sans-serif;
-$presentation-heading-color: $imago-grey;
+$presentation-heading-color: $navy;
 
 // Default (light) theme colors
 $body-bg: $white;
@@ -52,7 +52,7 @@ $presentation-menu-color: $imago-grey;
   color: $imago-grey;
   
   h1, h2, h3, h4, h5, h6 {
-    color: $imago-grey;
+    color: $navy;
   }
   
   a {
@@ -93,6 +93,45 @@ $presentation-menu-color: $imago-grey;
 .dark-grey { color: $dark-grey !important; }
 .white { color: $white !important; }
 .imago-grey { color: $imago-grey !important; }
+
+// Highlight class
+.hlg {
+  background-color: rgba($orange, 0.8);
+  padding: 0.05em 0.15em;
+  border-radius: 0.2em;
+}
+
+.hlg-green {
+  background-color: rgba($green, 0.8);
+  padding: 0.05em 0.15em;
+  border-radius: 0.2em;
+}
+
+.hlg-blue {
+  background-color: rgba($blue, 0.8);
+  padding: 0.05em 0.15em;
+  border-radius: 0.2em;
+}
+
+// Slide alignment
+// Default: left-aligned text, vertically centered
+.reveal .slides section {
+  text-align: left;
+  height: 100%;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+// Align content to top
+.reveal .slides section.align-top {
+  justify-content: flex-start;
+}
+
+#refs {
+  font-size: 0.6em;
+  line-height: 1.3;
+}
 
 // Background utility classes
 .bg-navy { background-color: $navy !important; }
