@@ -26,6 +26,16 @@ share/python-wheels/
 *.egg
 MANIFEST
 
+# py scripts only in root (helpers)
+/*.py
+
+# Quatro ancillary
+01-Lab_files/
+01-Lab.html
+
+# Ignore all data
+data/
+
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
