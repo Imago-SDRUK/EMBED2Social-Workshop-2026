@@ -1,35 +1,42 @@
 project:
-  type: book
-  output-dir: docs
+  type: website
+  output-dir: ./docs
+  resources:
+    - "assets/*"
 
-book:
+website:
   title: "EMBED2Social Workshop 2026"
-  author: "EMBED2Social Imago Team"
-  date: today
 
   page-footer:
-    left: |
-      EMBED2Social
-    right: |
-      This book was built with <a href="https://quarto.org/">Quarto</a>.
+    center: |
+      [[Imago]{.green}](https://imago.ac.uk), part of the [[Smart Data Research UK]{.blue}](https://www.sdruk.ukri.org/) family.
 
   repo-url: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
   repo-branch: main
-  repo-actions: [edit, issue]
 
-  chapters:
-    - index.qmd
-    - 01-Lecture_slides.qmd
-    - 02-Lecture_slides.qmd
+  search:
+    location: sidebar
+    type: overlay
+  sidebar:
+    style: floating
+    collapse-level: 1
+    tools:
+      - icon: github
+        href: https://github.com/Imago-SDRUK/EMBED2Social-Workshop-2026
+    contents:
+      - index.qmd
+      - Materials.qmd
+      - text: Imago
+        href: https://imago.ac.uk
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - cosmo
+      - assets/imago.scss
     include-in-header:
       - text: |
           <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
-  pdf:
-    documentclass: scrreprt
 
 editor: visual
 

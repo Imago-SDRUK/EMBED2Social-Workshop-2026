@@ -1,4 +1,6 @@
-# Introduction
+# EMBED2Social
+
+> _Embeddings for the rest of us_
 
 This workshop is part of the project Embedding embeddings across social research and policy (EMBED2Social). The aim of EMBED2Social is to accelerate and widen the adoption of image embedding technology in applied contexts, in order to unlock the potential of satellite data for research, policy, and decision-making.
 
