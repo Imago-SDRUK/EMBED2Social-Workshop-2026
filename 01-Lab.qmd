@@ -159,13 +159,13 @@ Imago Data Product: <a href="https://data.imago.ac.uk/datasets/google-satellite-
 ::: {.column width="30%"}
 ![](assets/figures/lab1_exercise1_screen0.png){ width=65% fig-alt="Screenshot" fig-align="left" }
 :::
-----
+---
 
 4. Repeat for the second and third bands (`A01_mean` and `A02_mean`)
 5. Do you see any visual difference?
 
 
-----
+---
 
 ### Steps
 6. Visualise layer with 50% transparency over OSM or Google Satellite background.
@@ -175,7 +175,7 @@ To find the background, use the `QuickMapServices` plugin
 ![](assets/figures/lab1_exercise1_screen0.jpg){width=60%}
 :::
 
-----
+---
 
 7. Find an outskirt LSOA and Westminster LSOA: <br>
 `Processing Toolbox -> Select by expression -> Expression:` <br>
@@ -191,7 +191,7 @@ How different are they?
 spatial features and land use/land cover types. Illustration of a GeoTIFF tile (Multiband colour) which will show general
 land use/land cover features.-->
 
-----
+---
 
 ## Exercise 2. Is London dynamic? <!-- (15-20min) -->
 
@@ -202,7 +202,7 @@ Our data product contains Embeddings already aggregated at the level of LSOA for
 What if the local authorities need an explicit information on how rapidly their areas have been changing?
 It's not too difficult with this data product-->
 
------
+---
 
 ## Steps
 1. Ensure you have Embeddings-LSOA for two timeframes (2020 and 2024)
@@ -210,7 +210,7 @@ It's not too difficult with this data product-->
 3. Do you see 64 mean embedding values for this feature?
 
 
------
+---
 
 ::: {.columns}
 
@@ -229,7 +229,7 @@ Do they differ a lot?
 
 
 
-----
+---
 
 ::: {.columns}
 
@@ -250,7 +250,7 @@ Do they differ a lot?
 
 :::
 
------
+---
 
 ::: {.columns}
 
@@ -272,7 +272,7 @@ Do they differ a lot?
 
 :::
 
-----
+---
 
 ::: {.columns}
 
@@ -296,7 +296,7 @@ Do they differ a lot?
 
 :::
 
-----
+---
 
 8. Do you see any trends in London?
 
@@ -312,7 +312,7 @@ Does it confirm 'urban sprawl or 'gentrification'? Not really, it's only one ban
 
 
 
------
+---
 
 ## (Optional)
 <!-- This part is pre-analysed and output will be shared on the screen anyway. Sharing the steps and then the result -->
@@ -326,13 +326,13 @@ Does it confirm 'urban sprawl or 'gentrification'? Not really, it's only one ban
 A03 dimension
 </small>
 
-----
+---
 
 ## Exercise 3. Near or Far?
 <!-- (15min) -->
 
 
-------
+---
 
 ### Similarity search: steps
 
@@ -343,11 +343,11 @@ A03 dimension
 3. Upload the Embedding-LSOA dataset (2020) in GeoJSON format
 4. Pick your area and find what is the most similar one?
 
----------
+---
 
 ![](assets/figures/lab1_exercise3_screen1.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
 
----------
+---
 
 5. Let's find more similar areas...
 6. What about the least similar? 
@@ -356,7 +356,7 @@ A03 dimension
 
 ![](assets/figures/lab1_exercise3_screen2.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
 
-----
+---
 
 ### Results
 Did something surprise you?
@@ -395,7 +395,8 @@ https://londonist.com/london/latest-news/what-s-happening-with-the-earl-s-court-
 :::
 
 :::
-----
+
+---
 
 ### Steps
 
@@ -409,7 +410,7 @@ https://londonist.com/london/latest-news/what-s-happening-with-the-earl-s-court-
 5. Share your results!
 <img src="assets/figures/lab1_building_dynamics.png" alt="development" style="max-width:100%;" />
 
-----
+---
 
 ## [EXTRA] Exercise 5. 'Ground' Embeddings <!-- (15min) -->
 
@@ -430,7 +431,7 @@ Correlation is tricky in QGIS, porbably bivariate map instead
 2. Check out `Fields` - `population` (from ONS estimates)
 <img src="assets/figures/lab1_exercise5_screen0.png" alt="screenshot" style="max-width:60%;" />
 
-----
+---
 
 3. Calculate population density:
 <div style="font-size: 0.7em;">
@@ -446,7 +447,7 @@ Correlation is tricky in QGIS, porbably bivariate map instead
 
 <!-- Processing Toolbox → Vector Analysis → Clustering Points -->
 
----- 
+---
 
 4. Statistical analysis
 - Install [Plugins → Data Plotly]{.orange}
@@ -456,7 +457,7 @@ Correlation is tricky in QGIS, porbably bivariate map instead
 ![](assets/figures/lab1_exercise5_screen2.png){width=40%}
 :::
 
------
+---
 
 ::: {.columns}
 
@@ -476,7 +477,7 @@ Correlation is tricky in QGIS, porbably bivariate map instead
 
 :::
 
-----
+---
 
 6. Statistical analysis
 
@@ -485,7 +486,7 @@ Correlation is tricky in QGIS, porbably bivariate map instead
 
 ![](assets/figures/lab1_exercise5_screen4.png){width=100%}
 
-----
+---
 
 7. Statistical analysis
     - Switch back and clean plot canvas
@@ -495,7 +496,7 @@ Correlation is tricky in QGIS, porbably bivariate map instead
 
 ![](assets/figures/lab1_exercise5_screen5.png){width=100%}
 
-----
+---
 
 Correlations?
 
@@ -509,21 +510,4 @@ Correlations?
 
 ## Thanks, you were great! <br>
 You will have another portion of exercises soon...
-
-<!-- # Questions/TODOs
-- Unsure if there is QGIS manipulation possible altogether with presentation slides...
-- Maybe a short poll to rank the possible applications of embeddings (at the end)?
-- To move speaker notes to the separate file -->
-
-<!--## AUDIENCE POLL (after Lab 2):
-Based on the today's workshop, just try to think of how Embeddings applications may be useful
-for your routine and non-routine tasks. Rate them from 1 (not useful at all) to 5 (very useful): 
-- spatial similarity search
-- temporal similarity search
-- unsupervised classification
-- supervised classification
-- clustering
-- other (specify)-->
-
-
 
