@@ -144,23 +144,36 @@ Imago Data Product: <a href="https://data.imago.ac.uk/datasets/google-satellite-
   </a>
 
 ### Steps
+
+::: {.columns}
+
+::: {.column width="70%"}
 <div style="font-size: 0.8em;">
-1. Open Geopackages (2020 or 2024)
-2. Explore Layer Properties - CRS, format, fields, field types
+1. Download two GeoPackage files (2020 and 2024), open 2024
+2. Explore `Layer Properties` - CRS, format, fields, field types
 3. Create a layer style to illustrate the spatial differences for the `A00_mean` column: <br>
-[Symbology -> Layer Properties -> Graduated -> Default mode -> 20 classes -> Histogram]{.orange}
+[Symbology → Layer Properties → Graduated → Default mode → 20 classes → Histogram]{.orange}
+</div>
+::: 
+
+::: {.column width="30%"}
+![](assets/figures/lab1_exercise1_screen0.png){ width=65% fig-alt="Screenshot" fig-align="left" }
+:::
+----
+
 4. Repeat for the second and third bands (`A01_mean` and `A02_mean`)
 5. Do you see any visual difference?
-</div>
+
 
 ----
 
 ### Steps
 6. Visualise layer with 50% transparency over OSM or Google Satellite background.
-To find a background, use the `QuickMapServices` plugin 
+To find the background, use the `QuickMapServices` plugin 
 
-![](assets/figures/lab1_exercise1_screen0.jpg){ width=50% fig-alt="instruction" fig-align="left" }
-
+::: {layout-ncol=2}
+![](assets/figures/lab1_exercise1_screen0.jpg){width=60%}
+:::
 
 ----
 
@@ -172,7 +185,7 @@ How different are they?
 
 ---
 
-![](assets/figures/lab1_exercise1_screen1.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
+![](assets/figures/lab1_exercise1_screen1.png){ width=100% fig-alt="screenshot" fig-align="left" }
 
 <!-- Although values across bands differ a lot, in general each band shows some spatial differences and relations between 
 spatial features and land use/land cover types. Illustration of a GeoTIFF tile (Multiband colour) which will show general
@@ -325,7 +338,7 @@ A03 dimension
 
 1. Choose GeoJSON files from the data bundle (2020 and 2024) <br>
 2. Go to <a href="https://imago-similarity.com" target="_blank">
-  https://imago-similarity.com
+  https://imago-similarity.com **[PENDING]**
   </a> <br>(Chrome recommended)
 3. Upload the Embedding-LSOA dataset (2020) in GeoJSON format
 4. Pick your area and find what is the most similar one?
@@ -346,9 +359,9 @@ A03 dimension
 ----
 
 ### Results
-- Did something surprise you?
-- Similarity of areas with different use (industrial, residential, natural)
-- Multi-functional areas
+Did something surprise you?
+<!-- Similarity of areas with different use (industrial, residential, natural)
+- Multi-functional areas -->
 
 ![](assets/figures/lab1_exercise3_screen3.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
 
@@ -398,7 +411,7 @@ https://londonist.com/london/latest-news/what-s-happening-with-the-earl-s-court-
 
 ----
 
-## Exercise 5. [Extra - PENDING] 'Ground' Embeddings <!-- (15min) -->
+## [EXTRA] Exercise 5. 'Ground' Embeddings <!-- (15min) -->
 
 Embedding might seem as a quite abstract thing...
 
@@ -406,20 +419,96 @@ Let's ground it!
 
 [Do Embeddings really 'feel' other data?]{.orange}
 
-
-<!--  Calculate correlation between embed values and population density from ONS - TODO 
+<!--  Some relation between embed values and population density from ONS - TODO 
 There is some correlation (0.4-0.6) for some bands and population density, 
 while other bands don't have this (around 0),
 Correlation is tricky in QGIS, porbably bivariate map instead
 -->
 
 ## Steps
-Processing Toolbox → Vector Analysis → Clustering Points
+1. Open Layer Properties of [Embeddings-2024 GeoPackage]{.orange}
+2. Check out `Fields` - `population` (from ONS estimates)
+<img src="assets/figures/lab1_exercise5_screen0.png" alt="screenshot" style="max-width:60%;" />
+
+----
+
+3. Calculate population density:
+<div style="font-size: 0.7em;">
+
+    - Open `Field Calculator`
+    - Create a new field `popdens`
+    - Put expression: `("population"/$area)*1000000`
+    - Choose `Output field type` → `Integer (32 bit)`
+    - Save changes
+</div>
+
+![](assets/figures/lab1_exercise5_screen1.png){ width=100% fig-alt="screenshot" fig-align="left" }
+
+<!-- Processing Toolbox → Vector Analysis → Clustering Points -->
 
 ---- 
 
+4. Statistical analysis
+- Install [Plugins → Data Plotly]{.orange}
+- Open DataPlotly and choose the layer with population density
 
-# Thanks! You will have another portion of exercises soon...
+::: {layout-ncol=2}
+![](assets/figures/lab1_exercise5_screen2.png){width=40%}
+:::
+
+-----
+
+::: {.columns}
+
+::: {.column width="50%"}
+5. Statistical analysis
+
+    - Choose plot type → [Scatter Plot]{.orange}
+    - X field: `A04_mean`, Y field: `popdens`
+    - Change the `marker size` to 2 and stroke width to 1
+    - Run `Create Plot`
+:::
+
+
+::: {.column width="50%"}
+![](assets/figures/lab1_exercise5_screen3.jpg){width=100%}
+:::
+
+:::
+
+----
+
+6. Statistical analysis
+
+    - Switch to the plot window
+    - No obvious relationship?
+
+![](assets/figures/lab1_exercise5_screen4.png){width=100%}
+
+----
+
+7. Statistical analysis
+    - Switch back and clean plot canvas
+    - Create the same scatter plot for `A08_mean` column
+    - Can you see any relationship?
+
+
+![](assets/figures/lab1_exercise5_screen5.png){width=100%}
+
+----
+
+Correlations?
+
+![](assets/figures/lab1_populationdensity_correlation.png){ width=70% fig-alt="screenshot" fig-align="left" }
+
+- Each band is [unique but weak alone]{.orange}
+- We can't use just one dimension for analysis!
+
+<!-- None of the bands cannot tell the whole story! -->
+  
+
+## Thanks, you were great! <br>
+You will have another portion of exercises soon...
 
 <!-- # Questions/TODOs
 - Unsure if there is QGIS manipulation possible altogether with presentation slides...
