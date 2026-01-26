@@ -83,6 +83,29 @@ $presentation-menu-color: $imago-grey;
   }
 }
 
+// Image captions class
+.column small {
+  color: $dark-grey; 
+  font-family: $font-family-sans-serif; 
+  font-size: 0.5em; 
+  text-align: center;
+  display: block;
+  margin-top: 0.3em;
+
+  a {
+    color: $orange; // links in caption
+    &:hover {
+      color: darken($orange, 10%);
+    }
+  }
+}
+
+.small-font, 
+.small-font * {
+  font-size: 1em !important;
+  line-height: 1.1 !important;
+}
+
 // Utility classes for inline text colors
 .navy { color: $navy !important; }
 .grey { color: $grey !important; }
@@ -148,4 +171,3 @@ $presentation-menu-color: $imago-grey;
 h1, h2, h3, h4, h5, h6 {
     color: $navy;
   }
- 
