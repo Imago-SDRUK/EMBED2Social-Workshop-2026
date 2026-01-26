@@ -140,8 +140,8 @@ Technical report with accuracy tests and details in development, but will be mad
 <!-- General Embedding exploration at LSOA scale -->
 
 Imago Data Product: <a href="https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-london-lsoas-2020-2024" target="_blank">
-  https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-london-lsoas-2020-2024
-  </a>
+https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-london-lsoas-2020-2024
+</a>
 
 ### Steps
 
@@ -149,30 +149,37 @@ Imago Data Product: <a href="https://data.imago.ac.uk/datasets/google-satellite-
 
 ::: {.column width="70%"}
 <div style="font-size: 0.8em;">
-1. Download two GeoPackage files (2020 and 2024), open 2024
-2. Explore `Layer Properties` - CRS, format, fields, field types
-3. Create a layer style to illustrate the spatial differences for the `A00_mean` column: <br>
-[Symbology → Layer Properties → Graduated → Default mode → 20 classes → Histogram]{.orange}
+
+1. Download two GeoPackage files (2020 and 2024), open 2024  
+2. Explore `Layer Properties` – CRS, format, fields, field types  
+3. Create a layer style to illustrate the spatial differences for the `A00_mean` column:  
+   [Symbology → Layer Properties → Graduated → Default mode → 20 classes → Histogram]{.orange}
+
 </div>
-::: 
+:::
 
 ::: {.column width="30%"}
 ![](assets/figures/lab1_exercise1_screen0.png){ width=65% fig-alt="Screenshot" fig-align="left" }
 :::
+
+:::
+
 ---
 
 4. Repeat for the second and third bands (`A01_mean` and `A02_mean`)
 5. Do you see any visual difference?
 
+::: {layout-ncol=1}
+![](assets/figures/lab1_exercise1_screen0-1.jpg){width=100%}
+:::
 
 ---
 
-### Steps
 6. Visualise layer with 50% transparency over OSM or Google Satellite background.
 To find the background, use the `QuickMapServices` plugin 
 
 ::: {layout-ncol=2}
-![](assets/figures/lab1_exercise1_screen0.jpg){width=60%}
+![](assets/figures/lab1_exercise1_screen0-2.jpg){width=60%}
 :::
 
 ---
