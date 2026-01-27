@@ -1,0 +1,214 @@
+---
+title: _Where and how can geo-embeddings be used?_
+subtitle: _From traditional workflows to embedding-driven practice_
+format:
+  revealjs:
+    theme: ../assets/imago.scss
+    navigation-mode: linear
+    controls-layout: 'bottom-right'
+---
+
+## Aim & Objectives
+
+### Aim 
+
+-   Understanding how geo-embeddings transform geospatial workflows.
+
+### Objectives
+
+-   Explain what geo-embeddings represent
+-   Compare traditional and embedding-based workflows
+-   Use embeddings for exploration and prediction
+-   Critically assess strengths and limitations
+
+------------------------------------------------------------------------
+
+## Why embeddings matter for geo-practitioners
+
+-   Reduce feature engineering
+-   Enable reuse across regions
+-   Work with limited labels
+-   Faster experimentation
+
+------------------------------------------------------------------------
+
+## Why now?
+
+-   Rapid growth in EO data
+-   Availability of pretrained models
+-   Embeddings shared as datasets
+
+------------------------------------------------------------------------
+
+## Running example
+
+### Land cover / land use classification
+
+-   Satellite imagery input
+-   Widely used, conceptually difficult
+-   Representative of many geo tasks
+
+------------------------------------------------------------------------
+
+## Traditional LULC workflow
+
+-   Data selection
+-   Pre-processing
+-   Feature engineering
+-   Label collection
+-   Model training
+-   Post-processing
+
+------------------------------------------------------------------------
+
+## Where traditional workflows struggle
+
+-   Manual feature design
+-   Label dependency
+-   Poor transferability
+-   Long setup times
+
+------------------------------------------------------------------------
+
+## Recap: What geo-embeddings are
+
+-   Pretrained image representations
+-   Fixed-length semantic vectors
+-   Consistent feature space
+
+------------------------------------------------------------------------
+
+## What geo-embeddings are not
+
+-   Not physical measurements
+-   Not directly interpretable
+-   Not task-specific
+
+------------------------------------------------------------------------
+
+## Embedding-based workflow
+
+-   Imagery → embeddings
+-   Minimal preprocessing
+-   Learning in embedding space
+-   Interpretation & validation
+
+------------------------------------------------------------------------
+
+## Comparing workflows
+
+-   Handcrafted features vs learned representations
+-   Task-specific vs reusable
+-   Region-bound vs transferable
+
+------------------------------------------------------------------------
+
+## Application 1: Unsupervised classification
+
+-   Cluster places by similarity
+-   No labels required upfront
+-   Discover structure first
+
+------------------------------------------------------------------------
+
+## Why unsupervised matters in practice
+
+-   Handles ambiguity
+-   Reveals spatial gradients
+-   Supports exploratory analysis
+
+------------------------------------------------------------------------
+
+## Example outcomes
+
+-   Place typologies
+-   Regional patterns
+-   Unexpected groupings
+
+------------------------------------------------------------------------
+
+## Application 2: Predictive models
+
+-   Embeddings as input features
+-   Simple downstream models
+-   Combine with traditional variables
+
+------------------------------------------------------------------------
+
+## Why embeddings help prediction
+
+-   Capture complex patterns
+-   Reduce model complexity
+-   Improve generalisation
+
+------------------------------------------------------------------------
+
+## What embeddings change
+
+-   Less feature engineering
+-   Better transferability
+-   Faster iteration
+
+------------------------------------------------------------------------
+
+## What embeddings don’t change
+
+-   Remove ambiguity
+-   Eliminate bias in training data
+-   Replace domain knowledge
+
+------------------------------------------------------------------------
+
+## Common pitfalls
+
+-   Treating embeddings as objective
+-   Ignoring training context
+-   Over-interpreting clusters
+
+------------------------------------------------------------------------
+
+## When embeddings add most value
+
+-   Large spatial extent
+-   Few labels available
+-   Multiple tasks or regions
+
+------------------------------------------------------------------------
+
+## When traditional features may be better
+
+-   Small local studies
+-   Physically interpretable models
+-   Policy-driven analysis
+
+------------------------------------------------------------------------
+
+## Practical considerations
+
+-   Choice of pretrained model
+-   Spatial and temporal scale
+-   Validation strategy
+
+------------------------------------------------------------------------
+
+## About Lab II
+
+-   Unsupervised place typology
+-   Embeddings as core data
+-   Extension to prediction
+
+------------------------------------------------------------------------
+
+## Key takeaways
+
+-   Embeddings reshape workflows
+-   Enable reuse and scalability
+-   Require careful interpretation
+
+------------------------------------------------------------------------
+
+## Looking ahead
+
+-   Foundation models in EO
+-   Multi-modal embeddings
+-   Future geo-practice
