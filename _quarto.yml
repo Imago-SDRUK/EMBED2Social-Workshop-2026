@@ -2,7 +2,13 @@ project:
   type: website
   output-dir: ./docs
   resources:
-    - "assets/*"
+    - "assets"
+  render:
+    - "Materials.qmd"
+    - "index.qmd"
+    - "CODE_OF_CONDUCT.md"
+    - "CONTRIBUTING.md"
+    - "02-Lab.ipynb"
 
 website:
   title: "EMBED2Social Workshop 2026"
@@ -37,11 +43,6 @@ format:
     include-in-header:
       - text: |
           <script defer src="https://events.imago.ac.uk/script.js" data-website-id="1d384e7c-c043-45bd-9404-abb364ffe9e0"></script>
-  revealjs:
-    theme: assets/imago.scss
-    navigation-mode: linear
-    controls-layout: 'bottom-right'
-    center: false
 
 editor: visual
 
