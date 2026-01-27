@@ -45,7 +45,12 @@ Again, embeddings is a one of the most comprehensive and explicit efforts to int
 
 ![](assets/figures/lab1_diagram_datasets.png){ width=70% fig-alt="Diagram of datasets" fig-align="center" }
 
-
+::: {.notes}
+We live in an era when we have an enormous amount of data. But that becomes our problem as well.
+For your maybe simple routine task at your workplace you suddenly find out you have a few datasets in your institutional database
+They are all different in resolution, accuracy, quality and etc. You spend a lot of time to sort it out which datasets are better for your purpose.
+It's not your problem, not problem of data itself, it's just our reality that storages become storages of everything, or data swamps.
+:::
 
 # Google Satellite Embeddings: context <!-- (8min) -->
 
@@ -63,8 +68,10 @@ https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMB
 <br>*RGB for random bands*
 
 ::: {.notes}
-    Illustrate only three first bands for the sake of sanity  and to keep things simple and clear. We can't illustrate all the bands
-    Open a console with a pre-filled script to show the available Google Embeddings for the area of interest (London)
+  Illustrate only three first bands for the sake of sanity  and to keep things simple and clear. We can't illustrate all the bands
+  Google Earth Engine already provides ready simple visualisations of embeddings, but again it's the crucial point we have many bands to visualise.
+  Here, you can exlore how your area of interest is illsutrated by embeddings and probably see some real-world objects, like built-up areas and forests.
+  However, it's a sort of a very rough illustration.
 :::
 
 ## Multiple dimensions
@@ -85,15 +92,15 @@ but even a few may tell a story...
 :::
 
 :::
-<!--“Every dimension matters, but a few are enough to get started.” “All bands together create the semantic map; some bands already tell the story.”-->
-
+::: {.notes}
+  “Every dimension matters, but a few are enough to get started.” “All bands together create the semantic map; some bands already tell the story.”
+:::
 
 ## IMAGO pipeline
 
 <img src="assets/figures/lab1_pipeline.png" alt="Description" />
 
-<!--
-- Snippet of annual (2024) Embedding dataset in QGIS. 
+::: {.notes}
 Go through the main specification of the dataset:
 64 bands, values magnitude, data type, CRS, compression, width x height, spatial resolution (pixel size).
 Highlight CRS is different by default from what we've used to work for spatial math (projected CRS),
@@ -103,22 +110,31 @@ Illustrate only three first bands for the sake of sanity  and to keep things sim
 
 The visualisation is more a semantic map, not a geographical map anymore! 
 We can use only a subset of bands with caution, for visual comparisons and initial analysis, not for the final production and research
--->
+:::
 
 ## IMAGO data product
 
-<!--In Imago, we do not limit ourselves with satellite rasters. We go beyond and find out how 
+::: {.notes}
+In Imago, we do not limit ourselves with satellite rasters. We go beyond and find out how 
 the satellite imagery can be useful to social science.
 
 Super output areas 
 Lower layer Super Output areas - small statistical units 
 Additional analytical data are available - population, deprivation, property counts, census, demographic profiles
-Other scientific data records available if they are built on LSOA basis-->
+Other scientific data records available if they are built on LSOA basis
+:::
 
 <img src="assets/figures/lab1_lsoa_multidim.png" alt="Description" />
 
 ## Annual changes
 [65th dimension]{.orange}
+
+::: {.notes}
+Currently, Google provides annual data from 2017 to 2024, but in the future seasonal or monthly products can be made available 
+which will increase the range of applications massively. Currently, we have the 65th dimension which could vary from 2017 to 2024. 
+And it's even a cool timeframe for ecologists and environmental geographers. For social scientists with this very dynamic research object, 
+it becomes even more important.
+:::
 
 <img src="assets/figures/lab1_lsoas_dynamics.png" alt="Description" />
 
@@ -164,6 +180,11 @@ https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-london-lsoas-202
 
 :::
 
+::: {.notes}
+You can also explore the histogram of values distribution. We will work with 2024, but the same procedure for 2024.
+Make sure layers are in EPSG:27700 Projected coordinate system for United Kingdom (UK).
+:::
+
 ---
 
 4. Repeat for the second and third bands (`A01_mean` and `A02_mean`)
@@ -171,6 +192,10 @@ https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-london-lsoas-202
 
 ::: {layout-ncol=1}
 ![](assets/figures/lab1_exercise1_screen0-1.jpg){width=100%}
+:::
+
+::: {.notes}
+Any difference between dimensions? They are, but seems to be quite illogical, can't be explained clearly.
 :::
 
 ---
@@ -198,16 +223,23 @@ How different are they?
 spatial features and land use/land cover types. Illustration of a GeoTIFF tile (Multiband colour) which will show general
 land use/land cover features.-->
 
+::: {.notes}
+As you can see, even one band doesn't follow any particular patterns like assigning negative values to all residential areas and positive 
+values to forests and moors. It recognises the patterns between spatial features, relationships between them.
+:::
+
 ---
 
 ## Exercise 2. Is London dynamic? <!-- (15-20min) -->
 
 [65th dimension]{.orange} is back - time
 
-<!-- Embeddings are widely used for many purposes, especially to analyse spatial changes in time.
+::: {.notes}
+Embeddings are widely used for many purposes, especially to analyse spatial changes in time.
 Our data product contains Embeddings already aggregated at the level of LSOA for a timeframe of five years (2020-2024).
 What if the local authorities need an explicit information on how rapidly their areas have been changing?
-It's not too difficult with this data product-->
+It's not too difficult with this data Product
+:::
 
 ---
 
@@ -216,6 +248,9 @@ It's not too difficult with this data product-->
 2. Tick on both layers, choose a random LSOA and click `Identify features`. Then click `Identify all`.
 3. Do you see 64 mean embedding values for this feature?
 
+::: {.notes}
+Two tables with many attributes, so you need to find the same columns in two tables and compare them.
+:::
 
 ---
 
@@ -257,6 +292,14 @@ Do they differ a lot?
 
 :::
 
+::: {.notes}
+You can join all columns from 2020, but I would recommend to pick up only required ones (A00_mean to A63_mean)
+just not to mess up the output. Output file name could be custom as you wish.
+
+What is much more important - define a prefix to joined columns from 2020, otherwise you can't separate 2024 from 2020 values.
+:::
+
+
 ---
 
 ::: {.columns}
@@ -264,8 +307,8 @@ Do they differ a lot?
 ::: {.column width="45%"}
 6. In the output dataset:
 - open [Field Calculator]{.orange}
-- calculate the difference between 2024 and 2020 for the `A02_mean` dimension: <br>
-["A02_mean" - "2020_A02_mean"]{.orange} <br>
+- calculate the difference between 2024 and 2020 for the `A00_mean` dimension: <br>
+["A00_mean" - "2020_A00_mean"]{.orange} <br>
 - choose output field type: <br>
 [Decimal number (real)]{.orange}
 
@@ -292,7 +335,7 @@ Do they differ a lot?
 - Colour ramp -> `RdBu`
 - Mode -> Equal interval  
 - Symmetric classification -> Around 0  
-- Classes - 10
+- Classes - 20
 - Classify  
 - Check out `histogram`
 :::
@@ -303,21 +346,28 @@ Do they differ a lot?
 
 :::
 
+::: {.notes}
+This stylisation is custom and you can apply another style to investigate the output layer, but this one is recommended.
+:::
+
 ---
 
 8. Do you see any trends in London?
 
 ![](assets/figures/lab1_exercise2_screen4.png){ width=150% fig-alt="Geospatial cube" fig-align="left" }
 
+
 <small>
-A02 dimension
+A00 dimension
 </small>
 
-<!-- In this dimension (A00), the centre and outskirts change in a different way
-Does it confirm 'urban sprawl or 'gentrification'? Not really, it's only one band!
--->
+::: {.notes}
+In this dimension (A00), the centre and outskirts change in a different way. East London is generally also under the negative dynamics
+Inner city parks like Hyde Park or Regent Park are quite stable,
+But some of the almost central densely built-up areas might have completely different direction of changes.
 
-
+So, does this result confirm 'urban sprawl or 'gentrification'? Not really, it's only one band!
+:::
 
 ---
 
@@ -333,10 +383,29 @@ Does it confirm 'urban sprawl or 'gentrification'? Not really, it's only one ban
 A03 dimension
 </small>
 
+::: {.notes}
+This dimension looks completely different, isn't it? It illustrates many outskirt areas which are under intensive urban extension.
+Many parks still stay stable.
+One of the red stains on this map (red doesn't mean negative in ecological sense) is rainham marshes in the east.
+I don't have enough knowledge about the London agglomeration, so if anyone knows what is happening there, it would be very interesting to hear.
+:::
+
 ---
 
 ## Exercise 3. Near or Far?
 <!-- (15min) -->
+
+::: {.notes}
+What places are like this one?
+What regions behave similarly?
+In terms of math its vector proximity operation.
+
+Two locations are almost never exactly the same.
+GPS coordinates differ a lot but their essense is very similar
+Regions have fuzzy boundaries
+Environmental and human activity patterns vary gradually
+“Places that are close enough in meaning or behaviour”
+:::
 
 
 ---
@@ -344,8 +413,8 @@ A03 dimension
 ### Similarity search: steps
 
 1. Choose GeoJSON files from the data bundle (2020 and 2024) <br>
-2. Go to <a href="https://imago-similarity.com" target="_blank">
-  https://imago-similarity.com **[PENDING]**
+2. Go to <a href="https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/assets/imago-similarity-explorer.html" target="_blank">
+  https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/assets/imago-similarity-explorer.html 
   </a> <br>(Chrome recommended)
 3. Upload the Embedding-LSOA dataset (2020) in GeoJSON format
 4. Pick your area and find what is the most similar one?
@@ -372,17 +441,28 @@ Did something surprise you?
 
 ![](assets/figures/lab1_exercise3_screen3.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
 
+::: {.notes}
+Embeddings capture:
+Land use
+Mobility patterns
+POI distributions
+Climate or terrain features
+:::
+
 ---
 
 ## Exercise 4. London in Motion <!-- (15min) -->
 
 Any prominent examples of land use or land cover changes in London (2020-2024)? <br>
 Web, AI, your memory - everything works!
-<!-- You probably know some prominent examples of land use or land cover changes in London. 
+
+::: {.notes}
+You probably know some prominent examples of land use or land cover changes in London. 
 It might be a new notoriously known apartment complex, motorway extension, or simply speaking, introduction of human-made infrastructure.
 
 Or it might be another process where the city introduces semi-natural or quasi-natural objects, for example 
 revitalizes industrial areas into urban gardens and parks. -->
+:::
 
 ::: {.columns}
 
@@ -412,6 +492,10 @@ https://londonist.com/london/latest-news/what-s-happening-with-the-earl-s-court-
 3. Spot the location. Which LSOA(s) does it cover?
 4. Do Embedding follow the 2020-2024 change? <br>You can explore multiple dimensions...
 
+::: {.notes}
+We can explore multiple dimensions, but we should be reasonable (2-3)
+:::
+
 ---
 
 5. Share your results!
@@ -427,11 +511,10 @@ Let's ground it!
 
 [Do Embeddings really 'feel' other data?]{.orange}
 
-<!--  Some relation between embed values and population density from ONS - TODO 
+::: {.notes}
 There is some correlation (0.4-0.6) for some bands and population density, 
-while other bands don't have this (around 0),
-Correlation is tricky in QGIS, porbably bivariate map instead
--->
+while other bands don't have this (around 0)
+:::
 
 ## Steps
 1. Open Layer Properties of [Embeddings-2024 GeoPackage]{.orange}
@@ -451,8 +534,6 @@ Correlation is tricky in QGIS, porbably bivariate map instead
 </div>
 
 ![](assets/figures/lab1_exercise5_screen1.png){ width=100% fig-alt="screenshot" fig-align="left" }
-
-<!-- Processing Toolbox → Vector Analysis → Clustering Points -->
 
 ---
 
