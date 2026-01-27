@@ -1,0 +1,1204 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "Embeddings for the rest of us\n\n\nThis workshop is part of the project Embedding embeddings across social research and policy (EMBED2Social). The aim of EMBED2Social is to accelerate and widen the adoption of image embedding technology in applied contexts, in order to unlock the potential of satellite data for research, policy, and decision-making.\nThis is a hands-on workshop introducing satellite (geo-)embeddings and their practical applications, co-organised by Imago and MHCLG. The workshop focuses on how satellite embeddings can be used in real-world tasks such as semantic search, unsupervised learning, and predictive modelling, with live coding sessions in Python.\n\n\nDate: Tuesday 27th January 2026\nTime: 10:00 – 16:30\nLocation:\n2 Marsham Street, London, SW1P 4DF\nRoom FG46\nKey highlights include:\n\nWhat geo-embeddings are and why they matter\n\nHow to work with embeddings in practical, real-world scenarios\n\nTechniques for semantic search and predictive modelling\n\nHands-on Python labs using satellite data\n\n\n\n\n\n\n\n\n\n\n\nTime\nSession\n\n\n\n\n10:00 – 11:00\nLecture I: What are geo-embeddings and why should I care\n\n\n11:00 – 11:15\nCoffee break\n\n\n11:15 – 12:30\nLab I: Exploring geo-embeddings in the real world\n\n\n12:30 – 13:30\nLunch\n\n\n13:30 – 14:30\nLecture II: Where and how can I use geo-embeddings?\n\n\n14:30 – 14:45\nCoffee break\n\n\n14:45 – 16:30\nLab II: Zero to hero on geo-embeddings\n\n\n\n\n\n\nTo get the most out of the workshop, participants should:\n\nBring a laptop\n\nHave Python installed (Anaconda recommended)\n\nBe comfortable with basic Python (no prior experience with embeddings required)\n\n\n\n\nWe welcome contributions of all kinds—code, documentation, ideas, and more!\nPlease read our Contributing Guidelines for step-by-step instructions on how to:\n\nFork and clone the repository\nCreate a new branch for your changes\nUse issue and pull request templates\nGet acknowledged with the All Contributors Bot\nResolve merge conflicts\n\nIf you’re new to open source, our guidelines are designed to make it easy for you to get started.\nIf you have questions, open an issue or start a discussion!\n\n\n\nThis repository uses a dual-licensing approach:\n\nMIT License for all software code (see LICENSE)\nCreative Commons Attribution 4.0 International (CC BY 4.0) for documentation, data, and non-code content\n\nSee the LICENSE file for full details.\n\n\n\n\nassets/ — Images, diagrams, and other media files\n.github/ — Community health files (issue/PR templates, workflows)\nCONTRIBUTING.md — How to contribute to this project\nCODE_OF_CONDUCT.md — Community standards and expectations\nLICENSE — Licensing information\nREADME.md — Project overview and instructions\n\n\n\n\nWe use the All Contributors Bot to recognize everyone’s work—code, docs, ideas, design, and more.\nAfter your PR is merged, comment on an issue or PR:\n@all-contributors please add @your-username for code, doc, etc.\n(Replace @your-username and the contribution types as appropriate.) See the emoji key for available contribution types.\nThank you for helping us build open, collaborative, and impactful projects with Imago!",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "index.html#workshop-details",
+    "href": "index.html#workshop-details",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "Date: Tuesday 27th January 2026\nTime: 10:00 – 16:30\nLocation:\n2 Marsham Street, London, SW1P 4DF\nRoom FG46\nKey highlights include:\n\nWhat geo-embeddings are and why they matter\n\nHow to work with embeddings in practical, real-world scenarios\n\nTechniques for semantic search and predictive modelling\n\nHands-on Python labs using satellite data",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "Time\nSession\n\n\n\n\n10:00 – 11:00\nLecture I: What are geo-embeddings and why should I care\n\n\n11:00 – 11:15\nCoffee break\n\n\n11:15 – 12:30\nLab I: Exploring geo-embeddings in the real world\n\n\n12:30 – 13:30\nLunch\n\n\n13:30 – 14:30\nLecture II: Where and how can I use geo-embeddings?\n\n\n14:30 – 14:45\nCoffee break\n\n\n14:45 – 16:30\nLab II: Zero to hero on geo-embeddings",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "index.html#requirements",
+    "href": "index.html#requirements",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "To get the most out of the workshop, participants should:\n\nBring a laptop\n\nHave Python installed (Anaconda recommended)\n\nBe comfortable with basic Python (no prior experience with embeddings required)",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "index.html#contributing",
+    "href": "index.html#contributing",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "We welcome contributions of all kinds—code, documentation, ideas, and more!\nPlease read our Contributing Guidelines for step-by-step instructions on how to:\n\nFork and clone the repository\nCreate a new branch for your changes\nUse issue and pull request templates\nGet acknowledged with the All Contributors Bot\nResolve merge conflicts\n\nIf you’re new to open source, our guidelines are designed to make it easy for you to get started.\nIf you have questions, open an issue or start a discussion!",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "index.html#license",
+    "href": "index.html#license",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "This repository uses a dual-licensing approach:\n\nMIT License for all software code (see LICENSE)\nCreative Commons Attribution 4.0 International (CC BY 4.0) for documentation, data, and non-code content\n\nSee the LICENSE file for full details.",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "index.html#repository-structure",
+    "href": "index.html#repository-structure",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "assets/ — Images, diagrams, and other media files\n.github/ — Community health files (issue/PR templates, workflows)\nCONTRIBUTING.md — How to contribute to this project\nCODE_OF_CONDUCT.md — Community standards and expectations\nLICENSE — Licensing information\nREADME.md — Project overview and instructions",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "index.html#acknowledging-contributors",
+    "href": "index.html#acknowledging-contributors",
+    "title": "EMBED2Social",
+    "section": "",
+    "text": "We use the All Contributors Bot to recognize everyone’s work—code, docs, ideas, design, and more.\nAfter your PR is merged, comment on an issue or PR:\n@all-contributors please add @your-username for code, doc, etc.\n(Replace @your-username and the contribution types as appropriate.) See the emoji key for available contribution types.\nThank you for helping us build open, collaborative, and impactful projects with Imago!",
+    "crumbs": [
+      "EMBED2Social"
+    ]
+  },
+  {
+    "objectID": "jupyter-lite/dist/jupyter-lite.html",
+    "href": "jupyter-lite/dist/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "jupyter-lite/dist/jupyter-lite.html#editing-configuration",
+    "href": "jupyter-lite/dist/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html",
+    "href": "jupyter-lite/dist/files/02-Lab.html",
+    "title": "Overview",
+    "section": "",
+    "text": "What is the lab about?\nThis lab provides a practical overview of how satellite image embeddings can be used as a general-purpose spatial representation.\nThe lab begins with unsupervised analysis, where participants use embeddings to explore and structure geographic space without predefined labels. This demonstrates how embeddings support exploratory analysis and place-based typologies. The same embeddings are then reused in a predictive context, showing how a single representation can support multiple analytical tasks without rebuilding the feature pipeline.\nThe emphasis throughout is on reusability and judgement:\nThe lab is not about training complex models, but about understanding how and when embeddings add value as spatial evidence."
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#import-libraries",
+    "href": "jupyter-lite/dist/files/02-Lab.html#import-libraries",
+    "title": "Overview",
+    "section": "Import libraries",
+    "text": "Import libraries\nBefore working with the data, a number of Python libraries are required to support data handling, spatial analysis, and modelling tasks in this lab.\nThese libraries provide functionality for:\n\nreading and manipulating tabular and spatial data.\nperforming numerical and statistical operations.\nvisualising spatial patterns, and\napplying clustering and predictive models.\n\nAll code in this lab assumes that these libraries are available in the working environment and correctly imported before proceeding to the analytical steps.\n\n\"\"\"\nImport for a geospatial data science workflow combining spatial analysis,\nmachine learning, and visualisation.\n\"\"\"\n\n# Spatial data handling\nimport geopandas as gpd          # Vector GIS data, geometry operations, CRS handling\nimport pandas as pd              # Tabular data manipulation and analysis\n\n# Numerical computing\nimport numpy as np               # Numerical operations and array-based computing\n\n# Visualisation\nimport matplotlib.pyplot as plt  # Static plots and figures\n\n# Unsupervised learning\nfrom sklearn.cluster import KMeans           # Clustering into place typologies\n\n# Supervised learning utilities\nfrom sklearn.model_selection import train_test_split  # Train/test data splitting\n\n# Supervised models\nfrom sklearn.ensemble import RandomForestRegressor, RandomForestClassifier\n# Tree-based ensemble models for regression and classification\n\n# Model evaluation\nfrom sklearn.metrics import mean_squared_error, accuracy_score  \n# Performance metrics for regression and classification\n\n# Mapping and basemaps\nimport contextily as cx          # Basemaps for GeoPandas plots\nimport folium                    # Interactive web-based maps\nfrom folium.features import DivIcon # Custom text/HTML map markers\n\n# Utilities\nimport re                        # Regular expressions for string processing\nfrom IPython.display import HTML, display  # Rich HTML output in notebooks\nimport uuid                      # Unique identifiers for map elements or outputs"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#load-data",
+    "href": "jupyter-lite/dist/files/02-Lab.html#load-data",
+    "title": "Overview",
+    "section": "Load data",
+    "text": "Load data\nBefore we can use the data it must first be loaded into our working environment.\n\n# Load the embedding data\ngpkg_path = \"/Lab2 data/uk_lsoa_london_embeds_2024.gpkg\"\n\n# Save the data into a GeoDataFrame\ngdf = gpd.read_file(gpkg_path)"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#display-information-about-data",
+    "href": "jupyter-lite/dist/files/02-Lab.html#display-information-about-data",
+    "title": "Overview",
+    "section": "Display information about data",
+    "text": "Display information about data\nLet’s make sure that data is loaded by trying to display some of its information.\n\n# Display coordinate reference system information\nprint(f'The CRS for this dataset is: {gdf.crs}')\n\n# Display the first few records of the data\ngdf.head()"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#preprocessing",
+    "href": "jupyter-lite/dist/files/02-Lab.html#preprocessing",
+    "title": "Overview",
+    "section": "Preprocessing",
+    "text": "Preprocessing\nLooking at the table above, not all variables are useful for this lab. In this step, the dataset is simplified by retaining only the embedding attributes, along with the information needed to identify each LSOA. This focuses subsequent analysis on the embedding information while preserving the spatial geometry for later mapping and interpretation.\n\n# Creates a new dataset with attributes that we want to keep\ngdf = filter_table(gdf)\n\n# Display new datasets\ngdf.head()\n\nIn the above we can see that attributes like ‘dzcode’ are not present in the filtered datasets"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#cluster-using-k-means",
+    "href": "jupyter-lite/dist/files/02-Lab.html#cluster-using-k-means",
+    "title": "Overview",
+    "section": "Cluster using k-means",
+    "text": "Cluster using k-means\nAn unsupervised algorithm that groups data into a specified number of clusters by minimising the distance between data points and the centre of their assigned cluster.\nNOTE: For kmeans, you have to tell the algorithms how many clusters/groups you want.\n\nLets use 3 clusters\n\n# USER: Enter the number of clusters that you want\nk = 3\n\n# Cluster LSOAs\ngdf = kmeans_clustering(gdf, k, feature_suffix=\"_mean\", random_state=42)"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#display-clusters",
+    "href": "jupyter-lite/dist/files/02-Lab.html#display-clusters",
+    "title": "Overview",
+    "section": "Display clusters",
+    "text": "Display clusters\nLet’s now have a look at our data again to see if the new cluster labels were added.\n\n# Display to top 20 rows of the data\ngdf.head(20)\n\n\nBut are there really 3 clusters? Let’s check.\n\nshow_cluster_labels(gdf, cluster_col=\"cluster\")"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#show-clusters-on-a-map",
+    "href": "jupyter-lite/dist/files/02-Lab.html#show-clusters-on-a-map",
+    "title": "Overview",
+    "section": "Show clusters on a map",
+    "text": "Show clusters on a map\nThe above is great but displaying the clusters on a map would add a lot more context.\n\n#------------------------------\n# Plot a map of clusters\n#------------------------------\nplot_simple_map(\n    gdf,\n    cluster_col=\"cluster\",\n    title=\"Unsupervised clusters for London LSOAs\",\n    figsize=(8, 8),\n    legend=True\n)\n\n\nIf you want, you can try other values for k (i.e., the number of clusters) and rerun the above code\nYOUR TURN: Try re-runing the code again for different number of clusters.\nLet’s make the map a bit more usable and interactive. We’ll add some reference points to situate ourselves, along with providing a satellite imagery layer.\n\n# USER: Add reference points in the format of: \"&lt;Name&gt;\", latitude, longitude\nPOIs = \"\"\"\n\"Westminster\", 51.4975, -0.1357\n\"City of London\", 51.5155, -0.0922\n\"WE ARE HERE :)\", 51.4962, -0.1298\n\"London Euston Station\", 51.5282, -0.1337\n\"\"\"\n\n# Draws the maps\nm = make_webmap_general(\n    focus_gdf=gdf,\n    focus_col=\"cluster\",\n    focus_name=\"Clusters\",\n    focus_tooltip_cols=(\"LSOA21NM\", \"cluster\"),\n    focus_categorical=True,\n    focus_legend=True,\n    focus_cmap=\"Set1\",\n    focus_style_kwds={\n        \"fillOpacity\": 0.6,\n        \"weight\": 0.2,\n        \"color\": \"black\",\n    },\n    context_gdf=None,   # no background layer\n    POIs=POIs,\n    fit_to=\"focus\",\n)\n\nm"
+  },
+  {
+    "objectID": "jupyter-lite/dist/files/02-Lab.html#load-socioeconomic-data",
+    "href": "jupyter-lite/dist/files/02-Lab.html#load-socioeconomic-data",
+    "title": "Overview",
+    "section": "Load socioeconomic data",
+    "text": "Load socioeconomic data\nThis data contains the Index of Multiple Deprivations (IMD) in deciles and along with some additional variables that have been reported in the literature to influence IMD. IMD deciles divide areas into ten equal groups, with lower deciles indicating higher levels of deprivation and higher deciles indicating lower levels of deprivation.\n\n# Load data\ndf = pd.read_csv('/Lab2 data/Socioeconomic.csv')"
+  },
+  {
+    "objectID": "jupyter-lite/dist/consoles/jupyter-lite.html",
+    "href": "jupyter-lite/dist/consoles/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "jupyter-lite/dist/consoles/jupyter-lite.html#editing-configuration",
+    "href": "jupyter-lite/dist/consoles/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "jupyter-lite/dist/notebooks/jupyter-lite.html",
+    "href": "jupyter-lite/dist/notebooks/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "jupyter-lite/dist/notebooks/jupyter-lite.html#editing-configuration",
+    "href": "jupyter-lite/dist/notebooks/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html",
+    "href": "jupyter-lite/content/02-Lab.html",
+    "title": "Overview",
+    "section": "",
+    "text": "What is the lab about?\nThis lab provides a practical overview of how satellite image embeddings can be used as a general-purpose spatial representation.\nThe lab begins with unsupervised analysis, where participants use embeddings to explore and structure geographic space without predefined labels. This demonstrates how embeddings support exploratory analysis and place-based typologies. The same embeddings are then reused in a predictive context, showing how a single representation can support multiple analytical tasks without rebuilding the feature pipeline.\nThe emphasis throughout is on reusability and judgement:\nThe lab is not about training complex models, but about understanding how and when embeddings add value as spatial evidence."
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#import-libraries",
+    "href": "jupyter-lite/content/02-Lab.html#import-libraries",
+    "title": "Overview",
+    "section": "Import libraries",
+    "text": "Import libraries\nBefore working with the data, a number of Python libraries are required to support data handling, spatial analysis, and modelling tasks in this lab.\nThese libraries provide functionality for:\n\nreading and manipulating tabular and spatial data.\nperforming numerical and statistical operations.\nvisualising spatial patterns, and\napplying clustering and predictive models.\n\nAll code in this lab assumes that these libraries are available in the working environment and correctly imported before proceeding to the analytical steps.\n\n\"\"\"\nImport for a geospatial data science workflow combining spatial analysis,\nmachine learning, and visualisation.\n\"\"\"\n\n# Spatial data handling\nimport geopandas as gpd          # Vector GIS data, geometry operations, CRS handling\nimport pandas as pd              # Tabular data manipulation and analysis\n\n# Numerical computing\nimport numpy as np               # Numerical operations and array-based computing\n\n# Visualisation\nimport matplotlib.pyplot as plt  # Static plots and figures\n\n# Unsupervised learning\nfrom sklearn.cluster import KMeans           # Clustering into place typologies\n\n# Supervised learning utilities\nfrom sklearn.model_selection import train_test_split  # Train/test data splitting\n\n# Supervised models\nfrom sklearn.ensemble import RandomForestRegressor, RandomForestClassifier\n# Tree-based ensemble models for regression and classification\n\n# Model evaluation\nfrom sklearn.metrics import mean_squared_error, accuracy_score  \n# Performance metrics for regression and classification\n\n# Mapping and basemaps\nimport contextily as cx          # Basemaps for GeoPandas plots\nimport folium                    # Interactive web-based maps\nfrom folium.features import DivIcon # Custom text/HTML map markers\n\n# Utilities\nimport re                        # Regular expressions for string processing\nfrom IPython.display import HTML, display  # Rich HTML output in notebooks\nimport uuid                      # Unique identifiers for map elements or outputs"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#load-data",
+    "href": "jupyter-lite/content/02-Lab.html#load-data",
+    "title": "Overview",
+    "section": "Load data",
+    "text": "Load data\nBefore we can use the data it must first be loaded into our working environment.\n\n# Load the embedding data\ngpkg_path = \"/Lab2 data/uk_lsoa_london_embeds_2024.gpkg\"\n\n# Save the data into a GeoDataFrame\ngdf = gpd.read_file(gpkg_path)"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#display-information-about-data",
+    "href": "jupyter-lite/content/02-Lab.html#display-information-about-data",
+    "title": "Overview",
+    "section": "Display information about data",
+    "text": "Display information about data\nLet’s make sure that data is loaded by trying to display some of its information.\n\n# Display coordinate reference system information\nprint(f'The CRS for this dataset is: {gdf.crs}')\n\n# Display the first few records of the data\ngdf.head()"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#preprocessing",
+    "href": "jupyter-lite/content/02-Lab.html#preprocessing",
+    "title": "Overview",
+    "section": "Preprocessing",
+    "text": "Preprocessing\nLooking at the table above, not all variables are useful for this lab. In this step, the dataset is simplified by retaining only the embedding attributes, along with the information needed to identify each LSOA. This focuses subsequent analysis on the embedding information while preserving the spatial geometry for later mapping and interpretation.\n\n# Creates a new dataset with attributes that we want to keep\ngdf = filter_table(gdf)\n\n# Display new datasets\ngdf.head()\n\nIn the above we can see that attributes like ‘dzcode’ are not present in the filtered datasets"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#cluster-using-k-means",
+    "href": "jupyter-lite/content/02-Lab.html#cluster-using-k-means",
+    "title": "Overview",
+    "section": "Cluster using k-means",
+    "text": "Cluster using k-means\nAn unsupervised algorithm that groups data into a specified number of clusters by minimising the distance between data points and the centre of their assigned cluster.\nNOTE: For kmeans, you have to tell the algorithms how many clusters/groups you want.\n\nLets use 3 clusters\n\n# USER: Enter the number of clusters that you want\nk = 3\n\n# Cluster LSOAs\ngdf = kmeans_clustering(gdf, k, feature_suffix=\"_mean\", random_state=42)"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#display-clusters",
+    "href": "jupyter-lite/content/02-Lab.html#display-clusters",
+    "title": "Overview",
+    "section": "Display clusters",
+    "text": "Display clusters\nLet’s now have a look at our data again to see if the new cluster labels were added.\n\n# Display to top 20 rows of the data\ngdf.head(20)\n\n\nBut are there really 3 clusters? Let’s check.\n\nshow_cluster_labels(gdf, cluster_col=\"cluster\")"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#show-clusters-on-a-map",
+    "href": "jupyter-lite/content/02-Lab.html#show-clusters-on-a-map",
+    "title": "Overview",
+    "section": "Show clusters on a map",
+    "text": "Show clusters on a map\nThe above is great but displaying the clusters on a map would add a lot more context.\n\n#------------------------------\n# Plot a map of clusters\n#------------------------------\nplot_simple_map(\n    gdf,\n    cluster_col=\"cluster\",\n    title=\"Unsupervised clusters for London LSOAs\",\n    figsize=(8, 8),\n    legend=True\n)\n\n\nIf you want, you can try other values for k (i.e., the number of clusters) and rerun the above code\nYOUR TURN: Try re-runing the code again for different number of clusters.\nLet’s make the map a bit more usable and interactive. We’ll add some reference points to situate ourselves, along with providing a satellite imagery layer.\n\n# USER: Add reference points in the format of: \"&lt;Name&gt;\", latitude, longitude\nPOIs = \"\"\"\n\"Westminster\", 51.4975, -0.1357\n\"City of London\", 51.5155, -0.0922\n\"WE ARE HERE :)\", 51.4962, -0.1298\n\"London Euston Station\", 51.5282, -0.1337\n\"\"\"\n\n# Draws the maps\nm = make_webmap_general(\n    focus_gdf=gdf,\n    focus_col=\"cluster\",\n    focus_name=\"Clusters\",\n    focus_tooltip_cols=(\"LSOA21NM\", \"cluster\"),\n    focus_categorical=True,\n    focus_legend=True,\n    focus_cmap=\"Set1\",\n    focus_style_kwds={\n        \"fillOpacity\": 0.6,\n        \"weight\": 0.2,\n        \"color\": \"black\",\n    },\n    context_gdf=None,   # no background layer\n    POIs=POIs,\n    fit_to=\"focus\",\n)\n\nm"
+  },
+  {
+    "objectID": "jupyter-lite/content/02-Lab.html#load-socioeconomic-data",
+    "href": "jupyter-lite/content/02-Lab.html#load-socioeconomic-data",
+    "title": "Overview",
+    "section": "Load socioeconomic data",
+    "text": "Load socioeconomic data\nThis data contains the Index of Multiple Deprivations (IMD) in deciles and along with some additional variables that have been reported in the literature to influence IMD. IMD deciles divide areas into ten equal groups, with lower deciles indicating higher levels of deprivation and higher deciles indicating lower levels of deprivation.\n\n# Load data\ndf = pd.read_csv('/Lab2 data/Socioeconomic.csv')"
+  },
+  {
+    "objectID": "assets/jupyter-lite/edit/jupyter-lite.html",
+    "href": "assets/jupyter-lite/edit/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/edit/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/edit/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/edit/jupyter-lite.html",
+    "href": "assets/jupyter-lite/dist/edit/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/edit/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/dist/edit/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/tree/jupyter-lite.html",
+    "href": "assets/jupyter-lite/dist/tree/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/tree/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/dist/tree/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/lab/jupyter-lite.html",
+    "href": "assets/jupyter-lite/dist/lab/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/lab/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/dist/lab/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/repl/jupyter-lite.html",
+    "href": "assets/jupyter-lite/dist/repl/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/repl/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/dist/repl/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/tree/jupyter-lite.html",
+    "href": "assets/jupyter-lite/tree/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/tree/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/tree/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/lab/jupyter-lite.html",
+    "href": "assets/jupyter-lite/lab/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/lab/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/lab/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/repl/jupyter-lite.html",
+    "href": "assets/jupyter-lite/repl/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/repl/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/repl/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "Materials.html",
+    "href": "Materials.html",
+    "title": "Materials",
+    "section": "",
+    "text": "Slides\nPDF print\n\n\n\n\n\nSlides\nPDF print\n\n\n\n\n\n\n\n\nSlides\nSimilarity explorer tool\n\n\n\n\n\nNotebook",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "Materials.html#lectures",
+    "href": "Materials.html#lectures",
+    "title": "Materials",
+    "section": "",
+    "text": "Slides\nPDF print\n\n\n\n\n\nSlides\nPDF print",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "Materials.html#labs",
+    "href": "Materials.html#labs",
+    "title": "Materials",
+    "section": "",
+    "text": "Slides\nSimilarity explorer tool\n\n\n\n\n\nNotebook",
+    "crumbs": [
+      "Materials"
+    ]
+  },
+  {
+    "objectID": "02-Lab.html",
+    "href": "02-Lab.html",
+    "title": "Overview",
+    "section": "",
+    "text": "What is the lab about?\nThis lab provides a practical overview of how satellite image embeddings can be used as a general-purpose spatial representation.\nThe lab begins with unsupervised analysis, where participants use embeddings to explore and structure geographic space without predefined labels. This demonstrates how embeddings support exploratory analysis and place-based typologies. The same embeddings are then reused in a predictive context, showing how a single representation can support multiple analytical tasks without rebuilding the feature pipeline.\nThe emphasis throughout is on reusability and judgement:\nThe lab is not about training complex models, but about understanding how and when embeddings add value as spatial evidence."
+  },
+  {
+    "objectID": "02-Lab.html#import-libraries",
+    "href": "02-Lab.html#import-libraries",
+    "title": "Overview",
+    "section": "Import libraries",
+    "text": "Import libraries\nBefore working with the data, a number of Python libraries are required to support data handling, spatial analysis, and modelling tasks in this lab.\nThese libraries provide functionality for:\n\nreading and manipulating tabular and spatial data.\nperforming numerical and statistical operations.\nvisualising spatial patterns, and\napplying clustering and predictive models.\n\nAll code in this lab assumes that these libraries are available in the working environment and correctly imported before proceeding to the analytical steps.\n\n\"\"\"\nImport for a geospatial data science workflow combining spatial analysis,\nmachine learning, and visualisation.\n\"\"\"\n\n# Spatial data handling\nimport geopandas as gpd          # Vector GIS data, geometry operations, CRS handling\nimport pandas as pd              # Tabular data manipulation and analysis\n\n# Numerical computing\nimport numpy as np               # Numerical operations and array-based computing\n\n# Visualisation\nimport matplotlib.pyplot as plt  # Static plots and figures\n\n# Unsupervised learning\nfrom sklearn.cluster import KMeans           # Clustering into place typologies\n\n# Supervised learning utilities\nfrom sklearn.model_selection import train_test_split  # Train/test data splitting\n\n# Supervised models\nfrom sklearn.ensemble import RandomForestRegressor, RandomForestClassifier\n# Tree-based ensemble models for regression and classification\n\n# Model evaluation\nfrom sklearn.metrics import mean_squared_error, accuracy_score  \n# Performance metrics for regression and classification\n\n# Mapping and basemaps\nimport contextily as cx          # Basemaps for GeoPandas plots\nimport folium                    # Interactive web-based maps\nfrom folium.features import DivIcon # Custom text/HTML map markers\n\n# Utilities\nimport re                        # Regular expressions for string processing\nfrom IPython.display import HTML, display  # Rich HTML output in notebooks\nimport uuid                      # Unique identifiers for map elements or outputs"
+  },
+  {
+    "objectID": "02-Lab.html#load-data",
+    "href": "02-Lab.html#load-data",
+    "title": "Overview",
+    "section": "Load data",
+    "text": "Load data\nBefore we can use the data it must first be loaded into our working environment.\n\n# Load the embedding data\ngpkg_path = \"/Lab2 data/uk_lsoa_london_embeds_2024.gpkg\"\n\n# Save the data into a GeoDataFrame\ngdf = gpd.read_file(gpkg_path)"
+  },
+  {
+    "objectID": "02-Lab.html#display-information-about-data",
+    "href": "02-Lab.html#display-information-about-data",
+    "title": "Overview",
+    "section": "Display information about data",
+    "text": "Display information about data\nLet’s make sure that data is loaded by trying to display some of its information.\n\n# Display coordinate reference system information\nprint(f'The CRS for this dataset is: {gdf.crs}')\n\n# Display the first few records of the data\ngdf.head()"
+  },
+  {
+    "objectID": "02-Lab.html#preprocessing",
+    "href": "02-Lab.html#preprocessing",
+    "title": "Overview",
+    "section": "Preprocessing",
+    "text": "Preprocessing\nLooking at the table above, not all variables are useful for this lab. In this step, the dataset is simplified by retaining only the embedding attributes, along with the information needed to identify each LSOA. This focuses subsequent analysis on the embedding information while preserving the spatial geometry for later mapping and interpretation.\n\n# Creates a new dataset with attributes that we want to keep\ngdf = filter_table(gdf)\n\n# Display new datasets\ngdf.head()\n\nIn the above we can see that attributes like ‘dzcode’ are not present in the filtered datasets"
+  },
+  {
+    "objectID": "02-Lab.html#cluster-using-k-means",
+    "href": "02-Lab.html#cluster-using-k-means",
+    "title": "Overview",
+    "section": "Cluster using k-means",
+    "text": "Cluster using k-means\nAn unsupervised algorithm that groups data into a specified number of clusters by minimising the distance between data points and the centre of their assigned cluster.\nNOTE: For kmeans, you have to tell the algorithms how many clusters/groups you want.\n\nLets use 3 clusters\n\n# USER: Enter the number of clusters that you want\nk = 3\n\n# Cluster LSOAs\ngdf = kmeans_clustering(gdf, k, feature_suffix=\"_mean\", random_state=42)"
+  },
+  {
+    "objectID": "02-Lab.html#display-clusters",
+    "href": "02-Lab.html#display-clusters",
+    "title": "Overview",
+    "section": "Display clusters",
+    "text": "Display clusters\nLet’s now have a look at our data again to see if the new cluster labels were added.\n\n# Display to top 20 rows of the data\ngdf.head(20)\n\n\nBut are there really 3 clusters? Let’s check.\n\nshow_cluster_labels(gdf, cluster_col=\"cluster\")"
+  },
+  {
+    "objectID": "02-Lab.html#show-clusters-on-a-map",
+    "href": "02-Lab.html#show-clusters-on-a-map",
+    "title": "Overview",
+    "section": "Show clusters on a map",
+    "text": "Show clusters on a map\nThe above is great but displaying the clusters on a map would add a lot more context.\n\n#------------------------------\n# Plot a map of clusters\n#------------------------------\nplot_simple_map(\n    gdf,\n    cluster_col=\"cluster\",\n    title=\"Unsupervised clusters for London LSOAs\",\n    figsize=(8, 8),\n    legend=True\n)\n\n\nIf you want, you can try other values for k (i.e., the number of clusters) and rerun the above code\nYOUR TURN: Try re-runing the code again for different number of clusters.\nLet’s make the map a bit more usable and interactive. We’ll add some reference points to situate ourselves, along with providing a satellite imagery layer.\n\n# USER: Add reference points in the format of: \"&lt;Name&gt;\", latitude, longitude\nPOIs = \"\"\"\n\"Westminster\", 51.4975, -0.1357\n\"City of London\", 51.5155, -0.0922\n\"WE ARE HERE :)\", 51.4962, -0.1298\n\"London Euston Station\", 51.5282, -0.1337\n\"\"\"\n\n# Draws the maps\nm = make_webmap_general(\n    focus_gdf=gdf,\n    focus_col=\"cluster\",\n    focus_name=\"Clusters\",\n    focus_tooltip_cols=(\"LSOA21NM\", \"cluster\"),\n    focus_categorical=True,\n    focus_legend=True,\n    focus_cmap=\"Set1\",\n    focus_style_kwds={\n        \"fillOpacity\": 0.6,\n        \"weight\": 0.2,\n        \"color\": \"black\",\n    },\n    context_gdf=None,   # no background layer\n    POIs=POIs,\n    fit_to=\"focus\",\n)\n\nm"
+  },
+  {
+    "objectID": "02-Lab.html#load-socioeconomic-data",
+    "href": "02-Lab.html#load-socioeconomic-data",
+    "title": "Overview",
+    "section": "Load socioeconomic data",
+    "text": "Load socioeconomic data\nThis data contains the Index of Multiple Deprivations (IMD) in deciles and along with some additional variables that have been reported in the literature to influence IMD. IMD deciles divide areas into ten equal groups, with lower deciles indicating higher levels of deprivation and higher deciles indicating lower levels of deprivation.\n\n# Load data\ndf = pd.read_csv('/Lab2 data/Socioeconomic.csv')"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#aim-objectives",
+    "href": "02-Lecture_slides.html#aim-objectives",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Aim & Objectives",
+    "text": "Aim & Objectives\nAim\n\nUnderstanding how geo-embeddings transform geospatial workflows.\n\nObjectives\n\nExplain what geo-embeddings represent\nCompare traditional and embedding-based workflows\nUse embeddings for exploration and prediction\nCritically assess strengths and limitations"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#why-embeddings-matter-for-geo-practitioners",
+    "href": "02-Lecture_slides.html#why-embeddings-matter-for-geo-practitioners",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Why embeddings matter for geo-practitioners",
+    "text": "Why embeddings matter for geo-practitioners\n\nReduce feature engineering\nEnable reuse across regions\nWork with limited labels\nFaster experimentation"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#why-now",
+    "href": "02-Lecture_slides.html#why-now",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Why now?",
+    "text": "Why now?\n\nRapid growth in EO data\nAvailability of pretrained models\nEmbeddings shared as datasets"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#running-example",
+    "href": "02-Lecture_slides.html#running-example",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Running example",
+    "text": "Running example\nLand cover / land use classification\n\nSatellite imagery input\nWidely used, conceptually difficult\nRepresentative of many geo tasks"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#traditional-lulc-workflow",
+    "href": "02-Lecture_slides.html#traditional-lulc-workflow",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Traditional LULC workflow",
+    "text": "Traditional LULC workflow\n\nData selection\nPre-processing\nFeature engineering\nLabel collection\nModel training\nPost-processing"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#where-traditional-workflows-struggle",
+    "href": "02-Lecture_slides.html#where-traditional-workflows-struggle",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Where traditional workflows struggle",
+    "text": "Where traditional workflows struggle\n\nManual feature design\nLabel dependency\nPoor transferability\nLong setup times"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#recap-what-geo-embeddings-are",
+    "href": "02-Lecture_slides.html#recap-what-geo-embeddings-are",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Recap: What geo-embeddings are",
+    "text": "Recap: What geo-embeddings are\n\nPretrained image representations\nFixed-length semantic vectors\nConsistent feature space"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#what-geo-embeddings-are-not",
+    "href": "02-Lecture_slides.html#what-geo-embeddings-are-not",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "What geo-embeddings are not",
+    "text": "What geo-embeddings are not\n\nNot physical measurements\nNot directly interpretable\nNot task-specific"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#embedding-based-workflow",
+    "href": "02-Lecture_slides.html#embedding-based-workflow",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Embedding-based workflow",
+    "text": "Embedding-based workflow\n\nImagery → embeddings\nMinimal preprocessing\nLearning in embedding space\nInterpretation & validation"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#comparing-workflows",
+    "href": "02-Lecture_slides.html#comparing-workflows",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Comparing workflows",
+    "text": "Comparing workflows\n\nHandcrafted features vs learned representations\nTask-specific vs reusable\nRegion-bound vs transferable"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#application-1-unsupervised-classification",
+    "href": "02-Lecture_slides.html#application-1-unsupervised-classification",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Application 1: Unsupervised classification",
+    "text": "Application 1: Unsupervised classification\n\nCluster places by similarity\nNo labels required upfront\nDiscover structure first"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#why-unsupervised-matters-in-practice",
+    "href": "02-Lecture_slides.html#why-unsupervised-matters-in-practice",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Why unsupervised matters in practice",
+    "text": "Why unsupervised matters in practice\n\nHandles ambiguity\nReveals spatial gradients\nSupports exploratory analysis"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#example-outcomes",
+    "href": "02-Lecture_slides.html#example-outcomes",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Example outcomes",
+    "text": "Example outcomes\n\nPlace typologies\nRegional patterns\nUnexpected groupings"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#application-2-predictive-models",
+    "href": "02-Lecture_slides.html#application-2-predictive-models",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Application 2: Predictive models",
+    "text": "Application 2: Predictive models\n\nEmbeddings as input features\nSimple downstream models\nCombine with traditional variables"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#why-embeddings-help-prediction",
+    "href": "02-Lecture_slides.html#why-embeddings-help-prediction",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Why embeddings help prediction",
+    "text": "Why embeddings help prediction\n\nCapture complex patterns\nReduce model complexity\nImprove generalisation"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#what-embeddings-change",
+    "href": "02-Lecture_slides.html#what-embeddings-change",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "What embeddings change",
+    "text": "What embeddings change\n\nLess feature engineering\nBetter transferability\nFaster iteration"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#what-embeddings-dont-change",
+    "href": "02-Lecture_slides.html#what-embeddings-dont-change",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "What embeddings don’t change",
+    "text": "What embeddings don’t change\n\nRemove ambiguity\nEliminate bias in training data\nReplace domain knowledge"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#common-pitfalls",
+    "href": "02-Lecture_slides.html#common-pitfalls",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Common pitfalls",
+    "text": "Common pitfalls\n\nTreating embeddings as objective\nIgnoring training context\nOver-interpreting clusters"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#when-embeddings-add-most-value",
+    "href": "02-Lecture_slides.html#when-embeddings-add-most-value",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "When embeddings add most value",
+    "text": "When embeddings add most value\n\nLarge spatial extent\nFew labels available\nMultiple tasks or regions"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#when-traditional-features-may-be-better",
+    "href": "02-Lecture_slides.html#when-traditional-features-may-be-better",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "When traditional features may be better",
+    "text": "When traditional features may be better\n\nSmall local studies\nPhysically interpretable models\nPolicy-driven analysis"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#practical-considerations",
+    "href": "02-Lecture_slides.html#practical-considerations",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Practical considerations",
+    "text": "Practical considerations\n\nChoice of pretrained model\nSpatial and temporal scale\nValidation strategy"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#about-lab-ii",
+    "href": "02-Lecture_slides.html#about-lab-ii",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "About Lab II",
+    "text": "About Lab II\n\nUnsupervised place typology\nEmbeddings as core data\nExtension to prediction"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#key-takeaways",
+    "href": "02-Lecture_slides.html#key-takeaways",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nEmbeddings reshape workflows\nEnable reuse and scalability\nRequire careful interpretation"
+  },
+  {
+    "objectID": "02-Lecture_slides.html#looking-ahead",
+    "href": "02-Lecture_slides.html#looking-ahead",
+    "title": "Where and how can geo-embeddings be used?",
+    "section": "Looking ahead",
+    "text": "Looking ahead\n\nFoundation models in EO\nMulti-modal embeddings\nFuture geo-practice"
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html",
+    "href": "CODE_OF_CONDUCT.html",
+    "title": "Imago Code of Conduct",
+    "section": "",
+    "text": "Imago unlocks the potential of satellite imagery to help tackle urgent challenges facing the UK. As a programme, Imago comprises a range of research and engagement activities, with some data products or deliverables provided as open source. We are committed to creating a welcoming community, guided by best practices from our partners, community and contributors.\n\n\n\nInclusivity and Respect: Treat all contributors and users with dignity and fairness, regardless of background, experience, or identity.\nEmpowerment & Collaboration: Encourage skills development, sharing of ideas, and co-production of data products, embracing open science where appropriate and community-driven improvement.\nSupportiveness: Strive to make Imago a helpful, welcoming space, where questions and discussions are met with patience, curiosity, and encouragement—not derision or exclusion.\nHonesty & Integrity: Communicate and collaborate in ways that are truthful, transparent, and constructive. Misrepresentation, plagiarism, or data manipulation is not acceptable.\n\n\n\n\nAll contributors and users should: - Be welcoming, friendly, and patient with others. - Contribute positively; disagree respectfully and debate ideas, not people. - Avoid abusive, discriminatory, harassing, or anti-social behaviour (including in-person, online, or through images or data). - Respect privacy and personal boundaries of others, including data use and attribution. - Use language and imagery that is inclusive and appropriate for all community members. - Follow project policies, guidance, and decisions made by maintainers or facilitators.\n\n\n\n\nBullying, intimidation, harassment, derogatory comments, or personal attacks.\nDiscriminatory jokes or language related to gender, sexual orientation, disability, ethnicity, religion, or age.\nPlagiarism, falsification, or misrepresentation of contributions or data.\nAny conduct that disrupts the community, damages Imago’s reputation, or brings affiliated organisations into disrepute.\nUse of threatening, violent, or improper language—offline, online, or within the codebase.\n\n\n\n\n\nConcerns regarding breaches of this code should be reported confidentially to the project maintainers or lead institution (e.g., University of Liverpool contact).\nReports will be handled with respect, discretion, and good faith.\nBreaches may result in corrective actions including warnings, temporary or permanent exclusion from the project or its channels (e.g., repositories, online forums).\nSevere breaches may be escalated to host institutions.\n\n\n\n\nThis code applies to all spaces where Imago operates – including code repositories, communication channels, events, and related public communications, both online and offline.\n\n\n\nThe Imago team is committed to regularly reviewing and updating this code, seeking feedback from all participants, to ensure it remains effective, equitable, and aligned with open science best practice where relevant.\nThis code draws explicitly from the University of Liverpool’s Student Conduct Policy and the Newcastle University Students’ Union Code of Conduct, emphasising integrity, respect, inclusivity, and positive contribution."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#values",
+    "href": "CODE_OF_CONDUCT.html#values",
+    "title": "Imago Code of Conduct",
+    "section": "",
+    "text": "Inclusivity and Respect: Treat all contributors and users with dignity and fairness, regardless of background, experience, or identity.\nEmpowerment & Collaboration: Encourage skills development, sharing of ideas, and co-production of data products, embracing open science where appropriate and community-driven improvement.\nSupportiveness: Strive to make Imago a helpful, welcoming space, where questions and discussions are met with patience, curiosity, and encouragement—not derision or exclusion.\nHonesty & Integrity: Communicate and collaborate in ways that are truthful, transparent, and constructive. Misrepresentation, plagiarism, or data manipulation is not acceptable."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#expected-behaviour",
+    "href": "CODE_OF_CONDUCT.html#expected-behaviour",
+    "title": "Imago Code of Conduct",
+    "section": "",
+    "text": "All contributors and users should: - Be welcoming, friendly, and patient with others. - Contribute positively; disagree respectfully and debate ideas, not people. - Avoid abusive, discriminatory, harassing, or anti-social behaviour (including in-person, online, or through images or data). - Respect privacy and personal boundaries of others, including data use and attribution. - Use language and imagery that is inclusive and appropriate for all community members. - Follow project policies, guidance, and decisions made by maintainers or facilitators."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#unacceptable-behaviour",
+    "href": "CODE_OF_CONDUCT.html#unacceptable-behaviour",
+    "title": "Imago Code of Conduct",
+    "section": "",
+    "text": "Bullying, intimidation, harassment, derogatory comments, or personal attacks.\nDiscriminatory jokes or language related to gender, sexual orientation, disability, ethnicity, religion, or age.\nPlagiarism, falsification, or misrepresentation of contributions or data.\nAny conduct that disrupts the community, damages Imago’s reputation, or brings affiliated organisations into disrepute.\nUse of threatening, violent, or improper language—offline, online, or within the codebase."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#reporting-and-enforcement",
+    "href": "CODE_OF_CONDUCT.html#reporting-and-enforcement",
+    "title": "Imago Code of Conduct",
+    "section": "",
+    "text": "Concerns regarding breaches of this code should be reported confidentially to the project maintainers or lead institution (e.g., University of Liverpool contact).\nReports will be handled with respect, discretion, and good faith.\nBreaches may result in corrective actions including warnings, temporary or permanent exclusion from the project or its channels (e.g., repositories, online forums).\nSevere breaches may be escalated to host institutions."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#applicability",
+    "href": "CODE_OF_CONDUCT.html#applicability",
+    "title": "Imago Code of Conduct",
+    "section": "",
+    "text": "This code applies to all spaces where Imago operates – including code repositories, communication channels, events, and related public communications, both online and offline."
+  },
+  {
+    "objectID": "CODE_OF_CONDUCT.html#commitment-to-improvement",
+    "href": "CODE_OF_CONDUCT.html#commitment-to-improvement",
+    "title": "Imago Code of Conduct",
+    "section": "",
+    "text": "The Imago team is committed to regularly reviewing and updating this code, seeking feedback from all participants, to ensure it remains effective, equitable, and aligned with open science best practice where relevant.\nThis code draws explicitly from the University of Liverpool’s Student Conduct Policy and the Newcastle University Students’ Union Code of Conduct, emphasising integrity, respect, inclusivity, and positive contribution."
+  },
+  {
+    "objectID": "01-Lecture_slides.html#autoencoders",
+    "href": "01-Lecture_slides.html#autoencoders",
+    "title": "Lecture I",
+    "section": "Autoencoders",
+    "text": "Autoencoders\n\n\n\n[…] neural network that is trained to attempt to copy its input to its output.\n\nGoodfellow, Bengio, and Courville (2016)\n\n\n\n\nSource: Wikimedia\n\n\n\nLate 80s, early 90s."
+  },
+  {
+    "objectID": "01-Lecture_slides.html#deep-autoencoders-for-imagery",
+    "href": "01-Lecture_slides.html#deep-autoencoders-for-imagery",
+    "title": "Lecture I",
+    "section": "Deep autoencoders (for imagery)",
+    "text": "Deep autoencoders (for imagery)\n\n\n\n\n\nWithin the blast radious of the deep learning revolution in the 2010s\nDeep convolutional AE, ViT (Kolesnikov et al. 2021), MAE (He et al. 2022)\nAEs start being pre-trained (the P in “ChatGPT”!)"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#foundation-models",
+    "href": "01-Lecture_slides.html#foundation-models",
+    "title": "Lecture I",
+    "section": "Foundation models",
+    "text": "Foundation models\n\nSelf-supervised1\nPre-train once, fine-tune downstream many times2\nRising interest in Remote Sensing/Earth Observation (Rolf et al. 2024)\n\nAll the rage in 2020s (and partially why embeddings are so hot now)\n“Life’s too short for labels!”“Life’s too short from training from scratch every time!”"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#geo-embeddings",
+    "href": "01-Lecture_slides.html#geo-embeddings",
+    "title": "Lecture I",
+    "section": "(Geo-)Embeddings",
+    "text": "(Geo-)Embeddings\n\n\n\n\n\nSource: Wikimedia\n\n\n\n\nDense, compressed vectors that retain statistical information of the input image\nNeural nets’ internal representation of an image\n“How computers see an image”"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#step-back-for-a-second",
+    "href": "01-Lecture_slides.html#step-back-for-a-second",
+    "title": "Lecture I",
+    "section": "Step back for a second",
+    "text": "Step back for a second\nThe year is 2026…\n\nWe need more data more than ever!\nWe have more data than ever!\nBut… “Mo Data, Mo Problems”?"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#embeddings-promise",
+    "href": "01-Lecture_slides.html#embeddings-promise",
+    "title": "Lecture I",
+    "section": "Embeddings’ promise",
+    "text": "Embeddings’ promise\n\nImagery as spreadsheets!\nImagery that fits in your laptop1\nImagery that talks to other imagery (and other kind of data!)\n\nKind of…"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#but-technical-challenges",
+    "href": "01-Lecture_slides.html#but-technical-challenges",
+    "title": "Lecture I",
+    "section": "But… [technical challenges]",
+    "text": "But… [technical challenges]\nBuilding embeddings is still…\n\n… non-trivial\n… non-cheap\n… non-transferrable/comparable"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#but-conceptual-challenges",
+    "href": "01-Lecture_slides.html#but-conceptual-challenges",
+    "title": "Lecture I",
+    "section": "BUT… [conceptual challenges]",
+    "text": "BUT… [conceptual challenges]\n\nWhat’s the best1 scale?\nAre we still leaving in a world of pixels?\nWhat do they even mean?\n\n“Heavily loaded term” trigger warning!!!"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#models",
+    "href": "01-Lecture_slides.html#models",
+    "title": "Lecture I",
+    "section": "Models",
+    "text": "Models"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#models-1",
+    "href": "01-Lecture_slides.html#models-1",
+    "title": "Lecture I",
+    "section": "Models",
+    "text": "Models\nVery flexible, the sky is the limit!\n\nSpace, time, space-time\nSingle source, multi-sensor\nMulti-modal\n\n\nA (very biased) illustration…"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#models-2",
+    "href": "01-Lecture_slides.html#models-2",
+    "title": "Lecture I",
+    "section": "Models",
+    "text": "Models\nIndustry:\n\nIBM/NASA Prithvi (Szwarcman et al. 2025)\nIBM/ESA TerraMind (Jakubik et al. 2025)\nGoogle AlphaEarth* (Brown et al. 2025)\n…\n\nAcademia:\n\nTESSERA (Feng et al. 2025)\nPRESTO (Tseng et al. 2024), Galileo (Tseng et al. 2025)\n…"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#embedding-products3",
+    "href": "01-Lecture_slides.html#embedding-products3",
+    "title": "Lecture I",
+    "section": "Embedding products1",
+    "text": "Embedding products1\n\nGoogle AlphaEarth (Earth Engine)\nGeoTESSERA (Python package)\nESA’s Major TOM (various products)\n\nKeep in mind everything we said in But and BUT"
+  },
+  {
+    "objectID": "01-Lecture_slides.html#a-short-reading-list",
+    "href": "01-Lecture_slides.html#a-short-reading-list",
+    "title": "Lecture I",
+    "section": "A short reading list",
+    "text": "A short reading list\n\nJanowicz et al. (2025): (readable) academic overview\nGilman, Hassan, and Zimmerman (2025): an industry/research pitch\nKlemmer et al. (2025): an academic (CS’y) pitch"
+  },
+  {
+    "objectID": "CONTRIBUTING.html",
+    "href": "CONTRIBUTING.html",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "Thank you for your interest in contributing to this project! We welcome all kinds of contributions—code, documentation, ideas, and more. This guide will help you get started.\n\n\n\n\nFork this repository\nClick the Fork button at the top right of this page to create your own copy.\nClone your fork\nOpen your terminal and run:\ngit clone https://github.com/YOUR-USERNAME/Template.git\ncd Template\nCreate a new branch\nGive your branch a descriptive name:\ngit checkout -b my-feature-branch\nMake your changes\nAdd your code, documentation, or other contributions.\nCommit your changes\ngit add .\ngit commit -m \"Describe your changes\"\nPush to your fork\ngit push origin my-feature-branch\nOpen a Pull Request (PR)\n\nGo to your fork on GitHub.\nClick Compare & pull request.\nFill out the PR template and submit.\n\n\n\n\n\n\n\nWhen reporting a bug or requesting a feature, please use the provided issue templates for clear and helpful reports.\nWhen submitting a pull request, fill out the PR template to describe your changes and link related issues.\n\n\n\n\n\nWe celebrate all contributions! 🎉\nWe use the All Contributors Bot to recognize everyone’s work—code, docs, ideas, design, and more.\n\n\n\nAfter your PR is merged, comment on an issue or PR:\n@all-contributors please add @your-username for code, doc\n(Replace @your-username and the contribution types as appropriate.)\nThe bot will open a PR to update the contributors table in the README.\n\nReview and merge that PR to see your avatar and contributions appear!\n\n\n\n\nSee the emoji key for all the ways you can be recognized.\n\n\n\n## GitHub Access and Team Setup\n\n\nWe have completed the setup of GitHub access and team structures for the IMAGO Project. Each product team now has its own dedicated GitHub team, and all members have been assigned accordingly.\n\n\n🔗 Teams Directory: IMAGO GitHub Teams\n\n\n\n\n\n\n\n\nEach product team has a corresponding private repository.\n\nTeams are responsible for maintaining their own repositories.\n\nWhen a repository is ready to be shared publicly, it will be made available for everyone.\n\n\n\n\n\n\n\n\n\n\n\nWhen a member leaves the IMAGO Project: - Their membership will be converted to an Outside Collaborator.\n- They will retain access only to the repositories (public or private) they contributed to.\n- They will no longer be listed as a member of the organization.\n\n\n\n\n\nSearch existing issues before opening a new one.\nUse the bug or feature request templates.\nProvide a clear title, description, and steps to reproduce (if applicable).\nScreenshots and error messages are helpful!\n\n\n\n\n\nSometimes, your PR may have conflicts with the main branch. To resolve:\n\nFetch the latest changes:\ngit checkout main\ngit pull origin main\ngit checkout my-feature-branch\ngit merge main\nFix any conflicts in your files (look for &lt;&lt;&lt;&lt;&lt;&lt;&lt;, =======, &gt;&gt;&gt;&gt;&gt;&gt;&gt; markers).\nAdd and commit the resolved files:\ngit add .\ngit commit -m \"Resolve merge conflicts\"\nPush your branch again:\ngit push origin my-feature-branch\n\n\n\n\n\nBe respectful and considerate in all interactions.\nSee our Code of Conduct for details.\n\nWe appreciate your contributions and support in building a vibrant community around this project. If you have any questions, feel free to reach out via issues or discussions."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#how-to-contribute",
+    "href": "CONTRIBUTING.html#how-to-contribute",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "Fork this repository\nClick the Fork button at the top right of this page to create your own copy.\nClone your fork\nOpen your terminal and run:\ngit clone https://github.com/YOUR-USERNAME/Template.git\ncd Template\nCreate a new branch\nGive your branch a descriptive name:\ngit checkout -b my-feature-branch\nMake your changes\nAdd your code, documentation, or other contributions.\nCommit your changes\ngit add .\ngit commit -m \"Describe your changes\"\nPush to your fork\ngit push origin my-feature-branch\nOpen a Pull Request (PR)\n\nGo to your fork on GitHub.\nClick Compare & pull request.\nFill out the PR template and submit."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#using-issue-pr-templates",
+    "href": "CONTRIBUTING.html#using-issue-pr-templates",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "When reporting a bug or requesting a feature, please use the provided issue templates for clear and helpful reports.\nWhen submitting a pull request, fill out the PR template to describe your changes and link related issues."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#acknowledging-contributors-with-all-contributors-bot",
+    "href": "CONTRIBUTING.html#acknowledging-contributors-with-all-contributors-bot",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "We celebrate all contributions! 🎉\nWe use the All Contributors Bot to recognize everyone’s work—code, docs, ideas, design, and more.\n\n\n\nAfter your PR is merged, comment on an issue or PR:\n@all-contributors please add @your-username for code, doc\n(Replace @your-username and the contribution types as appropriate.)\nThe bot will open a PR to update the contributors table in the README.\n\nReview and merge that PR to see your avatar and contributions appear!\n\n\n\n\nSee the emoji key for all the ways you can be recognized.\n\n\n\n## GitHub Access and Team Setup\n\n\nWe have completed the setup of GitHub access and team structures for the IMAGO Project. Each product team now has its own dedicated GitHub team, and all members have been assigned accordingly.\n\n\n🔗 Teams Directory: IMAGO GitHub Teams"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#team-and-repository-structure",
+    "href": "CONTRIBUTING.html#team-and-repository-structure",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "Each product team has a corresponding private repository.\n\nTeams are responsible for maintaining their own repositories.\n\nWhen a repository is ready to be shared publicly, it will be made available for everyone."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#offboarding-process",
+    "href": "CONTRIBUTING.html#offboarding-process",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "When a member leaves the IMAGO Project: - Their membership will be converted to an Outside Collaborator.\n- They will retain access only to the repositories (public or private) they contributed to.\n- They will no longer be listed as a member of the organization."
+  },
+  {
+    "objectID": "CONTRIBUTING.html#reporting-issues",
+    "href": "CONTRIBUTING.html#reporting-issues",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "Search existing issues before opening a new one.\nUse the bug or feature request templates.\nProvide a clear title, description, and steps to reproduce (if applicable).\nScreenshots and error messages are helpful!"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#resolving-merge-conflicts",
+    "href": "CONTRIBUTING.html#resolving-merge-conflicts",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "Sometimes, your PR may have conflicts with the main branch. To resolve:\n\nFetch the latest changes:\ngit checkout main\ngit pull origin main\ngit checkout my-feature-branch\ngit merge main\nFix any conflicts in your files (look for &lt;&lt;&lt;&lt;&lt;&lt;&lt;, =======, &gt;&gt;&gt;&gt;&gt;&gt;&gt; markers).\nAdd and commit the resolved files:\ngit add .\ngit commit -m \"Resolve merge conflicts\"\nPush your branch again:\ngit push origin my-feature-branch"
+  },
+  {
+    "objectID": "CONTRIBUTING.html#code-of-conduct",
+    "href": "CONTRIBUTING.html#code-of-conduct",
+    "title": "🌟 Contributing Guidelines",
+    "section": "",
+    "text": "Be respectful and considerate in all interactions.\nSee our Code of Conduct for details.\n\nWe appreciate your contributions and support in building a vibrant community around this project. If you have any questions, feel free to reach out via issues or discussions."
+  },
+  {
+    "objectID": "assets/jupyter-lite/notebooks/jupyter-lite.html",
+    "href": "assets/jupyter-lite/notebooks/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/notebooks/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/notebooks/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/consoles/jupyter-lite.html",
+    "href": "assets/jupyter-lite/consoles/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/consoles/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/consoles/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html",
+    "href": "assets/jupyter-lite/files/02-Lab.html",
+    "title": "Overview",
+    "section": "",
+    "text": "What is the lab about?\nThis lab provides a practical overview of how satellite image embeddings can be used as a general-purpose spatial representation.\nThe lab begins with unsupervised analysis, where participants use embeddings to explore and structure geographic space without predefined labels. This demonstrates how embeddings support exploratory analysis and place-based typologies. The same embeddings are then reused in a predictive context, showing how a single representation can support multiple analytical tasks without rebuilding the feature pipeline.\nThe emphasis throughout is on reusability and judgement:\nThe lab is not about training complex models, but about understanding how and when embeddings add value as spatial evidence."
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#import-libraries",
+    "href": "assets/jupyter-lite/files/02-Lab.html#import-libraries",
+    "title": "Overview",
+    "section": "Import libraries",
+    "text": "Import libraries\nBefore working with the data, a number of Python libraries are required to support data handling, spatial analysis, and modelling tasks in this lab.\nThese libraries provide functionality for:\n\nreading and manipulating tabular and spatial data.\nperforming numerical and statistical operations.\nvisualising spatial patterns, and\napplying clustering and predictive models.\n\nAll code in this lab assumes that these libraries are available in the working environment and correctly imported before proceeding to the analytical steps.\n\n\"\"\"\nImport for a geospatial data science workflow combining spatial analysis,\nmachine learning, and visualisation.\n\"\"\"\n\n# Spatial data handling\nimport geopandas as gpd          # Vector GIS data, geometry operations, CRS handling\nimport pandas as pd              # Tabular data manipulation and analysis\n\n# Numerical computing\nimport numpy as np               # Numerical operations and array-based computing\n\n# Visualisation\nimport matplotlib.pyplot as plt  # Static plots and figures\n\n# Unsupervised learning\nfrom sklearn.cluster import KMeans           # Clustering into place typologies\n\n# Supervised learning utilities\nfrom sklearn.model_selection import train_test_split  # Train/test data splitting\n\n# Supervised models\nfrom sklearn.ensemble import RandomForestRegressor, RandomForestClassifier\n# Tree-based ensemble models for regression and classification\n\n# Model evaluation\nfrom sklearn.metrics import mean_squared_error, accuracy_score  \n# Performance metrics for regression and classification\n\n# Mapping and basemaps\nimport contextily as cx          # Basemaps for GeoPandas plots\nimport folium                    # Interactive web-based maps\nfrom folium.features import DivIcon # Custom text/HTML map markers\n\n# Utilities\nimport re                        # Regular expressions for string processing\nfrom IPython.display import HTML, display  # Rich HTML output in notebooks\nimport uuid                      # Unique identifiers for map elements or outputs"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#load-data",
+    "href": "assets/jupyter-lite/files/02-Lab.html#load-data",
+    "title": "Overview",
+    "section": "Load data",
+    "text": "Load data\nBefore we can use the data it must first be loaded into our working environment.\n\n# Load the embedding data\ngpkg_path = \"/Lab2 data/uk_lsoa_london_embeds_2024.gpkg\"\n\n# Save the data into a GeoDataFrame\ngdf = gpd.read_file(gpkg_path)"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#display-information-about-data",
+    "href": "assets/jupyter-lite/files/02-Lab.html#display-information-about-data",
+    "title": "Overview",
+    "section": "Display information about data",
+    "text": "Display information about data\nLet’s make sure that data is loaded by trying to display some of its information.\n\n# Display coordinate reference system information\nprint(f'The CRS for this dataset is: {gdf.crs}')\n\n# Display the first few records of the data\ngdf.head()"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#preprocessing",
+    "href": "assets/jupyter-lite/files/02-Lab.html#preprocessing",
+    "title": "Overview",
+    "section": "Preprocessing",
+    "text": "Preprocessing\nLooking at the table above, not all variables are useful for this lab. In this step, the dataset is simplified by retaining only the embedding attributes, along with the information needed to identify each LSOA. This focuses subsequent analysis on the embedding information while preserving the spatial geometry for later mapping and interpretation.\n\n# Creates a new dataset with attributes that we want to keep\ngdf = filter_table(gdf)\n\n# Display new datasets\ngdf.head()\n\nIn the above we can see that attributes like ‘dzcode’ are not present in the filtered datasets"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#cluster-using-k-means",
+    "href": "assets/jupyter-lite/files/02-Lab.html#cluster-using-k-means",
+    "title": "Overview",
+    "section": "Cluster using k-means",
+    "text": "Cluster using k-means\nAn unsupervised algorithm that groups data into a specified number of clusters by minimising the distance between data points and the centre of their assigned cluster.\nNOTE: For kmeans, you have to tell the algorithms how many clusters/groups you want.\n\nLets use 3 clusters\n\n# USER: Enter the number of clusters that you want\nk = 3\n\n# Cluster LSOAs\ngdf = kmeans_clustering(gdf, k, feature_suffix=\"_mean\", random_state=42)"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#display-clusters",
+    "href": "assets/jupyter-lite/files/02-Lab.html#display-clusters",
+    "title": "Overview",
+    "section": "Display clusters",
+    "text": "Display clusters\nLet’s now have a look at our data again to see if the new cluster labels were added.\n\n# Display to top 20 rows of the data\ngdf.head(20)\n\n\nBut are there really 3 clusters? Let’s check.\n\nshow_cluster_labels(gdf, cluster_col=\"cluster\")"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#show-clusters-on-a-map",
+    "href": "assets/jupyter-lite/files/02-Lab.html#show-clusters-on-a-map",
+    "title": "Overview",
+    "section": "Show clusters on a map",
+    "text": "Show clusters on a map\nThe above is great but displaying the clusters on a map would add a lot more context.\n\n#------------------------------\n# Plot a map of clusters\n#------------------------------\nplot_simple_map(\n    gdf,\n    cluster_col=\"cluster\",\n    title=\"Unsupervised clusters for London LSOAs\",\n    figsize=(8, 8),\n    legend=True\n)\n\n\nIf you want, you can try other values for k (i.e., the number of clusters) and rerun the above code\nYOUR TURN: Try re-runing the code again for different number of clusters.\nLet’s make the map a bit more usable and interactive. We’ll add some reference points to situate ourselves, along with providing a satellite imagery layer.\n\n# USER: Add reference points in the format of: \"&lt;Name&gt;\", latitude, longitude\nPOIs = \"\"\"\n\"Westminster\", 51.4975, -0.1357\n\"City of London\", 51.5155, -0.0922\n\"WE ARE HERE :)\", 51.4962, -0.1298\n\"London Euston Station\", 51.5282, -0.1337\n\"\"\"\n\n# Draws the maps\nm = make_webmap_general(\n    focus_gdf=gdf,\n    focus_col=\"cluster\",\n    focus_name=\"Clusters\",\n    focus_tooltip_cols=(\"LSOA21NM\", \"cluster\"),\n    focus_categorical=True,\n    focus_legend=True,\n    focus_cmap=\"Set1\",\n    focus_style_kwds={\n        \"fillOpacity\": 0.6,\n        \"weight\": 0.2,\n        \"color\": \"black\",\n    },\n    context_gdf=None,   # no background layer\n    POIs=POIs,\n    fit_to=\"focus\",\n)\n\nm"
+  },
+  {
+    "objectID": "assets/jupyter-lite/files/02-Lab.html#load-socioeconomic-data",
+    "href": "assets/jupyter-lite/files/02-Lab.html#load-socioeconomic-data",
+    "title": "Overview",
+    "section": "Load socioeconomic data",
+    "text": "Load socioeconomic data\nThis data contains the Index of Multiple Deprivations (IMD) in deciles and along with some additional variables that have been reported in the literature to influence IMD. IMD deciles divide areas into ten equal groups, with lower deciles indicating higher levels of deprivation and higher deciles indicating lower levels of deprivation.\n\n# Load data\ndf = pd.read_csv('/Lab2 data/Socioeconomic.csv')"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/notebooks/jupyter-lite.html",
+    "href": "assets/jupyter-lite/dist/notebooks/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/notebooks/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/dist/notebooks/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/consoles/jupyter-lite.html",
+    "href": "assets/jupyter-lite/dist/consoles/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/consoles/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/dist/consoles/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html",
+    "title": "Overview",
+    "section": "",
+    "text": "What is the lab about?\nThis lab provides a practical overview of how satellite image embeddings can be used as a general-purpose spatial representation.\nThe lab begins with unsupervised analysis, where participants use embeddings to explore and structure geographic space without predefined labels. This demonstrates how embeddings support exploratory analysis and place-based typologies. The same embeddings are then reused in a predictive context, showing how a single representation can support multiple analytical tasks without rebuilding the feature pipeline.\nThe emphasis throughout is on reusability and judgement:\nThe lab is not about training complex models, but about understanding how and when embeddings add value as spatial evidence."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#import-libraries",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#import-libraries",
+    "title": "Overview",
+    "section": "Import libraries",
+    "text": "Import libraries\nBefore working with the data, a number of Python libraries are required to support data handling, spatial analysis, and modelling tasks in this lab.\nThese libraries provide functionality for:\n\nreading and manipulating tabular and spatial data.\nperforming numerical and statistical operations.\nvisualising spatial patterns, and\napplying clustering and predictive models.\n\nAll code in this lab assumes that these libraries are available in the working environment and correctly imported before proceeding to the analytical steps.\n\n\"\"\"\nImport for a geospatial data science workflow combining spatial analysis,\nmachine learning, and visualisation.\n\"\"\"\n\n# Spatial data handling\nimport geopandas as gpd          # Vector GIS data, geometry operations, CRS handling\nimport pandas as pd              # Tabular data manipulation and analysis\n\n# Numerical computing\nimport numpy as np               # Numerical operations and array-based computing\n\n# Visualisation\nimport matplotlib.pyplot as plt  # Static plots and figures\n\n# Unsupervised learning\nfrom sklearn.cluster import KMeans           # Clustering into place typologies\n\n# Supervised learning utilities\nfrom sklearn.model_selection import train_test_split  # Train/test data splitting\n\n# Supervised models\nfrom sklearn.ensemble import RandomForestRegressor, RandomForestClassifier\n# Tree-based ensemble models for regression and classification\n\n# Model evaluation\nfrom sklearn.metrics import mean_squared_error, accuracy_score  \n# Performance metrics for regression and classification\n\n# Mapping and basemaps\nimport contextily as cx          # Basemaps for GeoPandas plots\nimport folium                    # Interactive web-based maps\nfrom folium.features import DivIcon # Custom text/HTML map markers\n\n# Utilities\nimport re                        # Regular expressions for string processing\nfrom IPython.display import HTML, display  # Rich HTML output in notebooks\nimport uuid                      # Unique identifiers for map elements or outputs"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#load-data",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#load-data",
+    "title": "Overview",
+    "section": "Load data",
+    "text": "Load data\nBefore we can use the data it must first be loaded into our working environment.\n\n# Load the embedding data\ngpkg_path = \"/Lab2 data/uk_lsoa_london_embeds_2024.gpkg\"\n\n# Save the data into a GeoDataFrame\ngdf = gpd.read_file(gpkg_path)"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#display-information-about-data",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#display-information-about-data",
+    "title": "Overview",
+    "section": "Display information about data",
+    "text": "Display information about data\nLet’s make sure that data is loaded by trying to display some of its information.\n\n# Display coordinate reference system information\nprint(f'The CRS for this dataset is: {gdf.crs}')\n\n# Display the first few records of the data\ngdf.head()"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#preprocessing",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#preprocessing",
+    "title": "Overview",
+    "section": "Preprocessing",
+    "text": "Preprocessing\nLooking at the table above, not all variables are useful for this lab. In this step, the dataset is simplified by retaining only the embedding attributes, along with the information needed to identify each LSOA. This focuses subsequent analysis on the embedding information while preserving the spatial geometry for later mapping and interpretation.\n\n# Creates a new dataset with attributes that we want to keep\ngdf = filter_table(gdf)\n\n# Display new datasets\ngdf.head()\n\nIn the above we can see that attributes like ‘dzcode’ are not present in the filtered datasets"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#cluster-using-k-means",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#cluster-using-k-means",
+    "title": "Overview",
+    "section": "Cluster using k-means",
+    "text": "Cluster using k-means\nAn unsupervised algorithm that groups data into a specified number of clusters by minimising the distance between data points and the centre of their assigned cluster.\nNOTE: For kmeans, you have to tell the algorithms how many clusters/groups you want.\n\nLets use 3 clusters\n\n# USER: Enter the number of clusters that you want\nk = 3\n\n# Cluster LSOAs\ngdf = kmeans_clustering(gdf, k, feature_suffix=\"_mean\", random_state=42)"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#display-clusters",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#display-clusters",
+    "title": "Overview",
+    "section": "Display clusters",
+    "text": "Display clusters\nLet’s now have a look at our data again to see if the new cluster labels were added.\n\n# Display to top 20 rows of the data\ngdf.head(20)\n\n\nBut are there really 3 clusters? Let’s check.\n\nshow_cluster_labels(gdf, cluster_col=\"cluster\")"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#show-clusters-on-a-map",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#show-clusters-on-a-map",
+    "title": "Overview",
+    "section": "Show clusters on a map",
+    "text": "Show clusters on a map\nThe above is great but displaying the clusters on a map would add a lot more context.\n\n#------------------------------\n# Plot a map of clusters\n#------------------------------\nplot_simple_map(\n    gdf,\n    cluster_col=\"cluster\",\n    title=\"Unsupervised clusters for London LSOAs\",\n    figsize=(8, 8),\n    legend=True\n)\n\n\nIf you want, you can try other values for k (i.e., the number of clusters) and rerun the above code\nYOUR TURN: Try re-runing the code again for different number of clusters.\nLet’s make the map a bit more usable and interactive. We’ll add some reference points to situate ourselves, along with providing a satellite imagery layer.\n\n# USER: Add reference points in the format of: \"&lt;Name&gt;\", latitude, longitude\nPOIs = \"\"\"\n\"Westminster\", 51.4975, -0.1357\n\"City of London\", 51.5155, -0.0922\n\"WE ARE HERE :)\", 51.4962, -0.1298\n\"London Euston Station\", 51.5282, -0.1337\n\"\"\"\n\n# Draws the maps\nm = make_webmap_general(\n    focus_gdf=gdf,\n    focus_col=\"cluster\",\n    focus_name=\"Clusters\",\n    focus_tooltip_cols=(\"LSOA21NM\", \"cluster\"),\n    focus_categorical=True,\n    focus_legend=True,\n    focus_cmap=\"Set1\",\n    focus_style_kwds={\n        \"fillOpacity\": 0.6,\n        \"weight\": 0.2,\n        \"color\": \"black\",\n    },\n    context_gdf=None,   # no background layer\n    POIs=POIs,\n    fit_to=\"focus\",\n)\n\nm"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/files/02-Lab.html#load-socioeconomic-data",
+    "href": "assets/jupyter-lite/dist/files/02-Lab.html#load-socioeconomic-data",
+    "title": "Overview",
+    "section": "Load socioeconomic data",
+    "text": "Load socioeconomic data\nThis data contains the Index of Multiple Deprivations (IMD) in deciles and along with some additional variables that have been reported in the literature to influence IMD. IMD deciles divide areas into ten equal groups, with lower deciles indicating higher levels of deprivation and higher deciles indicating lower levels of deprivation.\n\n# Load data\ndf = pd.read_csv('/Lab2 data/Socioeconomic.csv')"
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/jupyter-lite.html",
+    "href": "assets/jupyter-lite/dist/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/dist/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/dist/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "assets/jupyter-lite/jupyter-lite.html",
+    "href": "assets/jupyter-lite/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "assets/jupyter-lite/jupyter-lite.html#editing-configuration",
+    "href": "assets/jupyter-lite/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "jupyter-lite/dist/repl/jupyter-lite.html",
+    "href": "jupyter-lite/dist/repl/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "jupyter-lite/dist/repl/jupyter-lite.html#editing-configuration",
+    "href": "jupyter-lite/dist/repl/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "jupyter-lite/dist/lab/jupyter-lite.html",
+    "href": "jupyter-lite/dist/lab/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "jupyter-lite/dist/lab/jupyter-lite.html#editing-configuration",
+    "href": "jupyter-lite/dist/lab/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "jupyter-lite/dist/tree/jupyter-lite.html",
+    "href": "jupyter-lite/dist/tree/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "jupyter-lite/dist/tree/jupyter-lite.html#editing-configuration",
+    "href": "jupyter-lite/dist/tree/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "jupyter-lite/dist/edit/jupyter-lite.html",
+    "href": "jupyter-lite/dist/edit/jupyter-lite.html",
+    "title": "jupyter-lite.ipynb",
+    "section": "",
+    "text": "This notebook is the preferred source of site-specific runtime configuration for a JupyterLite app, and will override any configuration in jupyter-lite.json."
+  },
+  {
+    "objectID": "jupyter-lite/dist/edit/jupyter-lite.html#editing-configuration",
+    "href": "jupyter-lite/dist/edit/jupyter-lite.html#editing-configuration",
+    "title": "jupyter-lite.ipynb",
+    "section": "Editing Configuration",
+    "text": "Editing Configuration\nThe configuration is stored in this Notebook’s metadata under the jupyter-lite key. To edit the configuration in JupyterLab.\n\nopen the Property Inspector sidebar\nexpand the Advanced Tools section\nedit the jupyter-lite metadata sub-key\npress the “check” icon\nsave the notebook"
+  },
+  {
+    "objectID": "01-Lab.html#lab-1",
+    "href": "01-Lab.html#lab-1",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Lab 1",
+    "text": "Lab 1\nExploring geo-embeddings in the real world\nVitaly Kryukov, Newcastle University"
+  },
+  {
+    "objectID": "01-Lab.html#we-have-more-data-than-ever-mo-data-mo-problems",
+    "href": "01-Lab.html#we-have-more-data-than-ever-mo-data-mo-problems",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "We have more data than ever!Mo Data, Mo Problems?",
+    "text": "We have more data than ever!Mo Data, Mo Problems?"
+  },
+  {
+    "objectID": "01-Lab.html#google-earth-engine",
+    "href": "01-Lab.html#google-earth-engine",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Google Earth Engine",
+    "text": "Google Earth Engine\n https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL \n RGB for bands 1,2,3\n RGB for random bands\n\nIllustrate only three first bands for the sake of sanity  and to keep things simple and clear. We can't illustrate all the bands\nOpen a console with a pre-filled script to show the available Google Embeddings for the area of interest (London)"
+  },
+  {
+    "objectID": "01-Lab.html#multiple-dimensions",
+    "href": "01-Lab.html#multiple-dimensions",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Multiple dimensions",
+    "text": "Multiple dimensions\n\n\n\n\nDimensions are interlinked and create a ‘semantical map’ altogether,  but even a few may tell a story…"
+  },
+  {
+    "objectID": "01-Lab.html#imago-pipeline",
+    "href": "01-Lab.html#imago-pipeline",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "IMAGO pipeline",
+    "text": "IMAGO pipeline"
+  },
+  {
+    "objectID": "01-Lab.html#imago-data-product",
+    "href": "01-Lab.html#imago-data-product",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "IMAGO data product",
+    "text": "IMAGO data product"
+  },
+  {
+    "objectID": "01-Lab.html#annual-changes",
+    "href": "01-Lab.html#annual-changes",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Annual changes",
+    "text": "Annual changes\n65th dimension"
+  },
+  {
+    "objectID": "01-Lab.html#exercise-1.-lsoa-exploration",
+    "href": "01-Lab.html#exercise-1.-lsoa-exploration",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Exercise 1. LSOA exploration",
+    "text": "Exercise 1. LSOA exploration\n\nImago Data Product:  https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-london-lsoas-2020-2024 \nSteps\n\n\n\n\nDownload two GeoPackage files (2020 and 2024), open 2024\n\nExplore Layer Properties – CRS, format, fields, field types\n\nCreate a layer style to illustrate the spatial differences for the A00_mean column:\nSymbology → Layer Properties → Graduated → Default mode → 20 classes → Histogram"
+  },
+  {
+    "objectID": "01-Lab.html#exercise-2.-is-london-dynamic",
+    "href": "01-Lab.html#exercise-2.-is-london-dynamic",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Exercise 2. Is London dynamic? ",
+    "text": "Exercise 2. Is London dynamic? \n65th dimension is back - time"
+  },
+  {
+    "objectID": "01-Lab.html#steps-1",
+    "href": "01-Lab.html#steps-1",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Steps",
+    "text": "Steps\n\nEnsure you have Embeddings-LSOA for two timeframes (2020 and 2024)\nTick on both layers, choose a random LSOA and click Identify features. Then click Identify all.\nDo you see 64 mean embedding values for this feature?"
+  },
+  {
+    "objectID": "01-Lab.html#optional",
+    "href": "01-Lab.html#optional",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "(Optional)",
+    "text": "(Optional)\n\n\nLet’s calculate the difference for other dimensions!\nRepeat the steps for dimension A03_mean\n\n\n A03 dimension"
+  },
+  {
+    "objectID": "01-Lab.html#exercise-3.-near-or-far",
+    "href": "01-Lab.html#exercise-3.-near-or-far",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Exercise 3. Near or Far?",
+    "text": "Exercise 3. Near or Far?"
+  },
+  {
+    "objectID": "01-Lab.html#exercise-4.-london-in-motion",
+    "href": "01-Lab.html#exercise-4.-london-in-motion",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Exercise 4. London in Motion ",
+    "text": "Exercise 4. London in Motion \nAny prominent examples of land use or land cover changes in London (2020-2024)?  Web, AI, your memory - everything works! \n\n\n   Earl’s Court development  ( https://londonist.com/london/latest-news/what-s-happening-with-the-earl-s-court-development )"
+  },
+  {
+    "objectID": "01-Lab.html#extra-exercise-5.-ground-embeddings",
+    "href": "01-Lab.html#extra-exercise-5.-ground-embeddings",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "[EXTRA] Exercise 5. ‘Ground’ Embeddings ",
+    "text": "[EXTRA] Exercise 5. ‘Ground’ Embeddings \nEmbedding might seem as a quite abstract thing…\nLet’s ground it!\nDo Embeddings really ‘feel’ other data?"
+  },
+  {
+    "objectID": "01-Lab.html#steps-3",
+    "href": "01-Lab.html#steps-3",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Steps",
+    "text": "Steps\n\nOpen Layer Properties of Embeddings-2024 GeoPackage\nCheck out Fields - population (from ONS estimates)"
+  },
+  {
+    "objectID": "01-Lab.html#thanks-you-were-great",
+    "href": "01-Lab.html#thanks-you-were-great",
+    "title": "EMBED2Social Workshop 2026",
+    "section": "Thanks, you were great! ",
+    "text": "Thanks, you were great! \nYou will have another portion of exercises soon…"
+  }
+]
