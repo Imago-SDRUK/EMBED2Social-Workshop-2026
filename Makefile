@@ -15,7 +15,7 @@ build_site:
 build_jlite:
 	### To be run inside a fresh container from repo home ###
 	# Move assets to landing folder
-	rm jupyter-lite/content/*
+	rm -rf jupyter-lite/content/*
 	cp 02-Lab.ipynb jupyter-lite/content/
 	cp -r assets/data jupyter-lite/content/
 	# Set up environment
