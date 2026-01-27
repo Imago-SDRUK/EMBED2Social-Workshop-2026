@@ -10,7 +10,7 @@ __pycache__/
 .Python
 build/
 develop-eggs/
-dist/
+#dist/
 downloads/
 eggs/
 .eggs/
@@ -29,9 +29,6 @@ MANIFEST
 # py scripts only in root (helpers)
 /*.py
 
-# Quatro ancillary
-01-Lab_files/
-01-Lab.html
 
 # Ignore all data
 data/
