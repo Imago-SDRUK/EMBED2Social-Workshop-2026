@@ -10,6 +10,7 @@ build_site:
 	# Post-render provision
 	rm -rf docs/slides
 	cp -r slides/ docs/slides/
+	rm -rf docs/assets/jupyter-lite
 	cp -r jupyter-lite/dist docs/assets/jupyter-lite
 
 build_jlite:
