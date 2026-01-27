@@ -21,4 +21,5 @@
 
 ### Lab II
 
-- [Notebook](02-Lab.ipynb)
+- [Notebook](02-Lab.ipynb) 
+- [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Imago-SDRUK/EMBED2Social-Workshop-2026/main)
