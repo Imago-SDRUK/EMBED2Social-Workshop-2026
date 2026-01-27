@@ -4,7 +4,7 @@
     "href": "02-Lab.html",
     "title": "Lab II",
     "section": "",
-    "text": "Code\n\n### RUN ONLY ON JUPYTER LITE ###\nimport micropip\nawait micropip.install(['pandas', 'shapely', 'folium'])\nawait micropip.install('geopandas', deps=False)"
+    "text": "Code\n\n### RUN ONLY ON JUPYTER LITE ###\nimport micropip\nawait micropip.install(['pandas', 'shapely', 'folium', 'mapclassify'])\nawait micropip.install('geopandas', deps=False)"
   },
   {
     "objectID": "02-Lab.html#import-libraries",
@@ -60,7 +60,7 @@
     "href": "02-Lab.html#load-socioeconomic-data",
     "title": "Lab II",
     "section": "Load socioeconomic data",
-    "text": "Load socioeconomic data\nThis data contains the Index of Multiple Deprivations (IMD) in deciles and along with some additional variables that have been reported in the literature to influence IMD. IMD deciles divide areas into ten equal groups, with lower deciles indicating higher levels of deprivation and higher deciles indicating lower levels of deprivation.\n\n\nCode\n# Load data\ndf = pd.read_csv('/Lab2 data/Socioeconomic.csv')"
+    "text": "Load socioeconomic data\nThis data contains the Index of Multiple Deprivations (IMD) in deciles and along with some additional variables that have been reported in the literature to influence IMD. IMD deciles divide areas into ten equal groups, with lower deciles indicating higher levels of deprivation and higher deciles indicating lower levels of deprivation.\n\n\nCode\n# Load data\ndf = pd.read_csv('/data/Socioeconomic.csv')"
   },
   {
     "objectID": "CODE_OF_CONDUCT.html",
