@@ -1,0 +1,71 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-01-27T04:00:18.375728Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-27T03:59:53.062690Z",
+      "mimetype": "text/csv",
+      "name": "Socioeconomic.csv",
+      "path": "data/Socioeconomic.csv",
+      "size": 2051899,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-01-27T04:00:18.371834Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-27T03:59:53.061025Z",
+      "mimetype": "text/csv",
+      "name": "Additional variables.csv",
+      "path": "data/Additional variables.csv",
+      "size": 1890614,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-01-27T04:00:18.374733Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-27T03:59:53.062150Z",
+      "mimetype": "text/csv",
+      "name": "IMD.csv",
+      "path": "data/IMD.csv",
+      "size": 442210,
+      "type": "file",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-01-27T04:00:18.383775Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-27T03:59:53.059634Z",
+      "mimetype": "application/geo+json",
+      "name": "uk_lsoa_london_embeds_2024.geojson",
+      "path": "data/uk_lsoa_london_embeds_2024.geojson",
+      "size": 19703478,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-01-27T04:00:18.378590Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-01-27T04:00:18.378590Z",
+  "mimetype": null,
+  "name": "data",
+  "path": "data",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

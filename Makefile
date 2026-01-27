@@ -17,7 +17,7 @@ build_jlite:
 	# Move assets to landing folder
 	rm jupyter-lite/content/*
 	cp 02-Lab.ipynb jupyter-lite/content/
-	cp assets/data/uk_lsoa_london_embeds_2024.geojson jupyter-lite/content/
+	cp -r assets/data jupyter-lite/content/
 	# Set up environment
 	conda create -yn jlite
 	rm -rf jupyter-lite/dist jupyter-lite/.jupyterlite.doit.db
