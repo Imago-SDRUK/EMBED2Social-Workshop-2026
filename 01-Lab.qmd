@@ -1,7 +1,7 @@
 ---
 format:
   revealjs:
-    theme: assets/imago.scss
+    theme: ../assets/imago.scss
     navigation-mode: linear
     controls-layout: 'bottom-right'
 _notes: |
@@ -31,7 +31,7 @@ _notes: |
 **Vitaly Kryukov, Newcastle University**
 
 
-![](assets/figures/lab1_data_cube.png){ width=130% fig-alt="Geospatial cube" fig-align="center" }
+![](../assets/figures/lab1_data_cube.png){ width=130% fig-alt="Geospatial cube" fig-align="center" }
 
 --- 
 
@@ -43,7 +43,7 @@ _notes: |
 Again, embeddings is a one of the most comprehensive and explicit efforts to integrate many datasets for the human use
 -->
 
-![](assets/figures/lab1_diagram_datasets.png){ width=70% fig-alt="Diagram of datasets" fig-align="center" }
+![](../assets/figures/lab1_diagram_datasets.png){ width=70% fig-alt="Diagram of datasets" fig-align="center" }
 
 ::: {.notes}
 We live in an era when we have an enormous amount of data. But that becomes our problem as well.
@@ -61,10 +61,10 @@ It's not your problem, not problem of data itself, it's just our reality that st
 https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMBEDDING_V1_ANNUAL
 </a>
 
-![](assets/figures/lab1_embed_visual3bands_1.png){ width=70% fig-align="center" }
+![](../assets/figures/lab1_embed_visual3bands_1.png){ width=70% fig-align="center" }
 <br>*RGB for bands 1,2,3*
 
-![](assets/figures/lab1_embed_visual3bands_2.png){ width=70% fig-align="center" }
+![](../assets/figures/lab1_embed_visual3bands_2.png){ width=70% fig-align="center" }
 <br>*RGB for random bands*
 
 ::: {.notes}
@@ -80,7 +80,7 @@ https://developers.google.com/earth-engine/datasets/catalog/GOOGLE_SATELLITE_EMB
 ::: {.columns}
 
 ::: {.column width="65%"}
-![](assets/figures/lab1_2024_TQ28-2024_buildings_rdbu.gif)
+![](../assets/figures/lab1_2024_TQ28-2024_buildings_rdbu.gif)
 
 :::
 
@@ -98,7 +98,7 @@ but even a few may tell a story...
 
 ## IMAGO pipeline
 
-<img src="assets/figures/lab1_pipeline.png" alt="Description" />
+<img src="../assets/figures/lab1_pipeline.png" alt="Description" />
 
 ::: {.notes}
 Go through the main specification of the dataset:
@@ -124,7 +124,7 @@ Additional analytical data are available - population, deprivation, property cou
 Other scientific data records available if they are built on LSOA basis
 :::
 
-<img src="assets/figures/lab1_lsoa_multidim.png" alt="Description" />
+<img src="../assets/figures/lab1_lsoa_multidim.png" alt="Description" />
 
 ## Annual changes
 [65th dimension]{.orange}
@@ -136,7 +136,7 @@ And it's even a cool timeframe for ecologists and environmental geographers. For
 it becomes even more important.
 :::
 
-<img src="assets/figures/lab1_lsoas_dynamics.png" alt="Description" />
+<img src="../assets/figures/lab1_lsoas_dynamics.png" alt="Description" />
 
 <!--## Final data product
 
@@ -175,7 +175,7 @@ https://data.imago.ac.uk/datasets/google-satellite-embedding-v1-london-lsoas-202
 :::
 
 ::: {.column width="30%"}
-![](assets/figures/lab1_exercise1_screen0.png){ width=65% fig-alt="Screenshot" fig-align="left" }
+![](../assets/figures/lab1_exercise1_screen0.png){ width=65% fig-alt="Screenshot" fig-align="left" }
 :::
 
 :::
@@ -191,7 +191,7 @@ Make sure layers are in EPSG:27700 Projected coordinate system for United Kingdo
 5. Do you see any visual difference?
 
 ::: {layout-ncol=1}
-![](assets/figures/lab1_exercise1_screen0-1.jpg){width=100%}
+![](../assets/figures/lab1_exercise1_screen0-1.jpg){width=100%}
 :::
 
 ::: {.notes}
@@ -204,7 +204,7 @@ Any difference between dimensions? They are, but seems to be quite illogical, ca
 To find the background, use the `QuickMapServices` plugin 
 
 ::: {layout-ncol=2}
-![](assets/figures/lab1_exercise1_screen0-2.jpg){width=60%}
+![](../assets/figures/lab1_exercise1_screen0-2.jpg){width=60%}
 :::
 
 ---
@@ -217,7 +217,7 @@ How different are they?
 
 ---
 
-![](assets/figures/lab1_exercise1_screen1.png){ width=100% fig-alt="screenshot" fig-align="left" }
+![](../assets/figures/lab1_exercise1_screen1.png){ width=100% fig-alt="screenshot" fig-align="left" }
 
 <!-- Although values across bands differ a lot, in general each band shows some spatial differences and relations between 
 spatial features and land use/land cover types. Illustration of a GeoTIFF tile (Multiband colour) which will show general
@@ -264,7 +264,7 @@ Do they differ a lot?
 :::
 
 ::: {.column width="60%"}
-![](assets/figures/lab1_exercise2_screen0.png){ width=100% fig-alt="Geospatial cube" fig-align="center" }
+![](../assets/figures/lab1_exercise2_screen0.png){ width=100% fig-alt="Geospatial cube" fig-align="center" }
 :::
 
 :::
@@ -287,7 +287,7 @@ Do they differ a lot?
 :::
 
 ::: {.column width="65%"}
-![](assets/figures/lab1_exercise2_screen1.png){ width=100% fig-alt="Geospatial cube" fig-align="center" }
+![](../assets/figures/lab1_exercise2_screen1.png){ width=100% fig-alt="Geospatial cube" fig-align="center" }
 :::
 
 :::
@@ -317,7 +317,7 @@ What is much more important - define a prefix to joined columns from 2020, other
 :::
 
 ::: {.column width="55%"}
-![](assets/figures/lab1_exercise2_screen2.png){ width=100% fig-alt="Geospatial cube" fig-align="center" }
+![](../assets/figures/lab1_exercise2_screen2.png){ width=100% fig-alt="Geospatial cube" fig-align="center" }
 :::
 
 :::
@@ -341,7 +341,7 @@ What is much more important - define a prefix to joined columns from 2020, other
 :::
 
 ::: {.column width="50%"}
-![](assets/figures/lab1_exercise2_screen3.png){ width=150% fig-alt="Geospatial cube" fig-align="left" }
+![](../assets/figures/lab1_exercise2_screen3.png){ width=150% fig-alt="Geospatial cube" fig-align="left" }
 :::
 
 :::
@@ -354,7 +354,7 @@ This stylisation is custom and you can apply another style to investigate the ou
 
 8. Do you see any trends in London?
 
-![](assets/figures/lab1_exercise2_screen4.png){ width=150% fig-alt="Geospatial cube" fig-align="left" }
+![](../assets/figures/lab1_exercise2_screen4.png){ width=150% fig-alt="Geospatial cube" fig-align="left" }
 
 
 <small>
@@ -377,7 +377,7 @@ So, does this result confirm 'urban sprawl or 'gentrification'? Not really, it's
 9. Let's calculate the difference for other dimensions!
 10. Repeat the steps for dimension `A03_mean`
 
-![](assets/figures/lab1_exercise2_screen5.png){ width=150% fig-alt="Geospatial cube" fig-align="left" }
+![](../assets/figures/lab1_exercise2_screen5.png){ width=150% fig-alt="Geospatial cube" fig-align="left" }
 
 <small>
 A03 dimension
@@ -413,15 +413,15 @@ Environmental and human activity patterns vary gradually
 ### Similarity search: steps
 
 1. Choose GeoJSON files from the data bundle (2020 and 2024) <br>
-2. Go to <a href="https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/assets/imago-similarity-explorer.html" target="_blank">
-  https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/assets/imago-similarity-explorer.html 
+2. Go to <a href="https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/../assets/imago-similarity-explorer.html" target="_blank">
+  https://imago-sdruk.github.io/EMBED2Social-Workshop-2026/../assets/imago-similarity-explorer.html 
   </a> <br>(Chrome recommended)
 3. Upload the Embedding-LSOA dataset (2020) in GeoJSON format
 4. Pick your area and find what is the most similar one?
 
 ---
 
-![](assets/figures/lab1_exercise3_screen1.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
+![](../assets/figures/lab1_exercise3_screen1.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
 
 ---
 
@@ -430,7 +430,7 @@ Environmental and human activity patterns vary gradually
 7. Now upload the Embedding-LSOA dataset from 2024 
 8. Do you spot differences in similar places?
 
-![](assets/figures/lab1_exercise3_screen2.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
+![](../assets/figures/lab1_exercise3_screen2.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
 
 ---
 
@@ -439,7 +439,7 @@ Did something surprise you?
 <!-- Similarity of areas with different use (industrial, residential, natural)
 - Multi-functional areas -->
 
-![](assets/figures/lab1_exercise3_screen3.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
+![](../assets/figures/lab1_exercise3_screen3.png){ width=100% fig-alt="Geospatial cube" fig-align="left" }
 
 ::: {.notes}
 Embeddings capture:
@@ -467,7 +467,7 @@ revitalizes industrial areas into urban gardens and parks. -->
 ::: {.columns}
 
 ::: {.column width="50%"}
-<img src="assets/figures/lab1_earls-court-buildings.jpg" alt="development" style="max-width:100%;" />
+<img src="../assets/figures/lab1_earls-court-buildings.jpg" alt="development" style="max-width:100%;" />
 <br>
 <small>
 Earl's Court development <br>
@@ -478,7 +478,7 @@ https://londonist.com/london/latest-news/what-s-happening-with-the-earl-s-court-
 :::
 
 ::: {.column width="50%"}
-<img src="assets/figures/lab1_case_study_location.png" alt="development" style="max-width:80%;" />
+<img src="../assets/figures/lab1_case_study_location.png" alt="development" style="max-width:80%;" />
 :::
 
 :::
@@ -499,7 +499,7 @@ We can explore multiple dimensions, but we should be reasonable (2-3)
 ---
 
 5. Share your results!
-<img src="assets/figures/lab1_building_dynamics.png" alt="development" style="max-width:100%;" />
+<img src="../assets/figures/lab1_building_dynamics.png" alt="development" style="max-width:100%;" />
 
 ---
 
@@ -519,7 +519,7 @@ while other bands don't have this (around 0)
 ## Steps
 1. Open Layer Properties of [Embeddings-2024 GeoPackage]{.orange}
 2. Check out `Fields` - `population` (from ONS estimates)
-<img src="assets/figures/lab1_exercise5_screen0.png" alt="screenshot" style="max-width:60%;" />
+<img src="../assets/figures/lab1_exercise5_screen0.png" alt="screenshot" style="max-width:60%;" />
 
 ---
 
@@ -533,7 +533,7 @@ while other bands don't have this (around 0)
     - Save changes
 </div>
 
-![](assets/figures/lab1_exercise5_screen1.png){ width=100% fig-alt="screenshot" fig-align="left" }
+![](../assets/figures/lab1_exercise5_screen1.png){ width=100% fig-alt="screenshot" fig-align="left" }
 
 ---
 
@@ -542,7 +542,7 @@ while other bands don't have this (around 0)
 - Open DataPlotly and choose the layer with population density
 
 ::: {layout-ncol=2}
-![](assets/figures/lab1_exercise5_screen2.png){width=40%}
+![](../assets/figures/lab1_exercise5_screen2.png){width=40%}
 :::
 
 ---
@@ -560,7 +560,7 @@ while other bands don't have this (around 0)
 
 
 ::: {.column width="50%"}
-![](assets/figures/lab1_exercise5_screen3.jpg){width=100%}
+![](../assets/figures/lab1_exercise5_screen3.jpg){width=100%}
 :::
 
 :::
@@ -572,7 +572,7 @@ while other bands don't have this (around 0)
     - Switch to the plot window
     - No obvious relationship?
 
-![](assets/figures/lab1_exercise5_screen4.png){width=100%}
+![](../assets/figures/lab1_exercise5_screen4.png){width=100%}
 
 ---
 
@@ -582,13 +582,13 @@ while other bands don't have this (around 0)
     - Can you see any relationship?
 
 
-![](assets/figures/lab1_exercise5_screen5.png){width=100%}
+![](../assets/figures/lab1_exercise5_screen5.png){width=100%}
 
 ---
 
 Correlations?
 
-![](assets/figures/lab1_populationdensity_correlation.png){ width=70% fig-alt="screenshot" fig-align="left" }
+![](../assets/figures/lab1_populationdensity_correlation.png){ width=70% fig-alt="screenshot" fig-align="left" }
 
 - Each band is [unique but weak alone]{.orange}
 - We can't use just one dimension for analysis!
