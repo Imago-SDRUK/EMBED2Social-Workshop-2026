@@ -1,4 +1,4 @@
 geopandas
 matplotlib
 contextily
-sklearn
+scikit-learn
