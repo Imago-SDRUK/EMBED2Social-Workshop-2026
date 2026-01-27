@@ -21,11 +21,11 @@ build_jlite:
 	# Set up environment
 	conda create -yn jlite
 	rm -rf jupyter-lite/dist jupyter-lite/.jupyterlite.doit.db
-	. /opt/conda/etc/profile.d/conda.sh && \
-		conda activate jlite
-	pip install -r jupyter-lite/requirements.txt
 	# Build deployment
-	cd jupyter-lite && \
+	. /opt/conda/etc/profile.d/conda.sh && \
+		conda activate jlite && \
+		pip install -r jupyter-lite/requirements.txt && \
+		cd jupyter-lite && \
 		jupyter lite build --contents content --output-dir dist
 
 serve_jlite:

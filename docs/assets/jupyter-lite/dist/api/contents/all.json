@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2026-01-27T04:47:37.117757Z",
+      "created": "2026-01-27T05:24:23.362925Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2026-01-27T04:47:11.830650Z",
+      "last_modified": "2026-01-27T05:23:58.103562Z",
       "mimetype": null,
       "name": "02-Lab.ipynb",
       "path": "02-Lab.ipynb",
@@ -16,11 +16,11 @@
     },
     {
       "content": null,
-      "created": "2026-01-27T04:47:37.125756Z",
+      "created": "2026-01-27T05:24:23.371005Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2026-01-27T04:47:37.125756Z",
+      "last_modified": "2026-01-27T05:24:23.371005Z",
       "mimetype": null,
       "name": "data",
       "path": "data",
@@ -29,11 +29,11 @@
       "writable": true
     }
   ],
-  "created": "2026-01-27T04:47:37.117757Z",
+  "created": "2026-01-27T05:24:23.363005Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2026-01-27T04:47:37.117757Z",
+  "last_modified": "2026-01-27T05:24:23.363005Z",
   "mimetype": null,
   "name": "",
   "path": "",
