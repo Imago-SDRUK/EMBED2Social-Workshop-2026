@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2026-01-27T02:48:09.000620Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-27T02:47:42.559413Z",
+      "mimetype": null,
+      "name": "02-Lab.ipynb",
+      "path": "02-Lab.ipynb",
+      "size": 67779,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2026-01-27T02:48:09.005460Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2026-01-27T02:47:42.575550Z",
+      "mimetype": "application/geo+json",
+      "name": "uk_lsoa_london_embeds_2024.geojson",
+      "path": "uk_lsoa_london_embeds_2024.geojson",
+      "size": 19703478,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2026-01-27T02:48:09.000858Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2026-01-27T02:48:09.000858Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}

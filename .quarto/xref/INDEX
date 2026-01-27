@@ -1,0 +1,122 @@
+{
+  "index.qmd": {
+    "index.html": "393f396f"
+  },
+  "01-Lecture_slides.qmd": {
+    "01-Lecture_slides.html": "3f9157b7"
+  },
+  "02-Lecture_slides.qmd": {
+    "02-Lecture_slides.html": "7cd99704"
+  },
+  "CODE_OF_CONDUCT.md": {
+    "CODE_OF_CONDUCT.html": "7b26a22d"
+  },
+  "CONTRIBUTING.md": {
+    "CONTRIBUTING.html": "6a17f2c4"
+  },
+  "Lectures.qmd": {
+    "Lectures.html": "cf3b4c34"
+  },
+  "Materials.qmd": {
+    "Materials.html": "12e86dbc"
+  },
+  "02-Lab.ipynb": {
+    "02-Lab.html": "2625ae5e"
+  },
+  "assets/jupyter-lite/repl/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "407e567d"
+  },
+  "assets/jupyter-lite/notebooks/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "f90fc7ad"
+  },
+  "assets/jupyter-lite/lab/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "1f180839"
+  },
+  "assets/jupyter-lite/consoles/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "f86f5e68"
+  },
+  "assets/jupyter-lite/tree/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "700b0635"
+  },
+  "assets/jupyter-lite/files/02-Lab.ipynb": {
+    "02-Lab.html": "82a0e238"
+  },
+  "assets/jupyter-lite/dist/repl/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "49825a69"
+  },
+  "assets/jupyter-lite/dist/notebooks/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "ad895cdf"
+  },
+  "assets/jupyter-lite/dist/lab/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "6c4c410c"
+  },
+  "assets/jupyter-lite/dist/consoles/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "dda3b7e9"
+  },
+  "assets/jupyter-lite/dist/tree/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "2954a7e4"
+  },
+  "assets/jupyter-lite/dist/files/02-Lab.ipynb": {
+    "02-Lab.html": "3a5912dc"
+  },
+  "assets/jupyter-lite/dist/edit/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "074afe9a"
+  },
+  "assets/jupyter-lite/dist/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "b43a675e"
+  },
+  "assets/jupyter-lite/edit/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "6cca5def"
+  },
+  "assets/jupyter-lite/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "1a967227"
+  },
+  "jupyter-lite/content/02-Lab.ipynb": {
+    "02-Lab.html": "75b10fdf"
+  },
+  "jupyter-lite/dist/repl/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "47a4dc33"
+  },
+  "jupyter-lite/dist/notebooks/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "9b4f774c"
+  },
+  "jupyter-lite/dist/lab/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "58528c4b"
+  },
+  "jupyter-lite/dist/consoles/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "f48045cf"
+  },
+  "jupyter-lite/dist/tree/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "cddeaa7c"
+  },
+  "jupyter-lite/dist/files/02-Lab.ipynb": {
+    "02-Lab.html": "4c3ec1ac"
+  },
+  "jupyter-lite/dist/edit/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "e9a08397"
+  },
+  "jupyter-lite/dist/jupyter-lite.ipynb": {
+    "jupyter-lite.html": "f5842086"
+  },
+  "01-Lab.qmd": {
+    "01-Lab.html": "074b7c6a"
+  },
+  "assets/slides/02-Lecture_slides.qmd": {
+    "02-Lecture_slides.html": "ce1d40fe"
+  },
+  "assets/slides/01-Lecture_slides.qmd": {
+    "01-Lecture_slides.html": "9c5f915b"
+  },
+  "assets/slides/01-Lab.qmd": {
+    "01-Lab.html": "db643811"
+  },
+  "slides/02-Lecture_slides.qmd": {
+    "02-Lecture_slides.html": "13762769"
+  },
+  "slides/01-Lecture_slides.qmd": {
+    "01-Lecture_slides.html": "d61b59b1"
+  },
+  "slides/01-Lab.qmd": {
+    "01-Lab.html": "57d2f641"
+  }
+}
