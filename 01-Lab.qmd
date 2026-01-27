@@ -344,8 +344,8 @@ A03 dimension
 ### Similarity search: steps
 
 1. Choose GeoJSON files from the data bundle (2020 and 2024) <br>
-2. Go to <a href="https://imago-similarity.com" target="_blank">
-  https://imago-similarity.com **[PENDING]**
+2. Go to <a href="assets/imago-similarity-explorer.html" target="_blank">
+  Imago Similarity Explorer Tool
   </a> <br>(Chrome recommended)
 3. Upload the Embedding-LSOA dataset (2020) in GeoJSON format
 4. Pick your area and find what is the most similar one?

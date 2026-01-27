@@ -16,6 +16,9 @@
 
 ### Lab I
 
+- [Slides](01-Lab.qmd)
 - [Similarity explorer tool](assets/imago-similarity-explorer.html)
 
 ### Lab II
+
+- [Notebook](02-Lab.ipynb)
