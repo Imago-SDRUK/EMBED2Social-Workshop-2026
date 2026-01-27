@@ -23,3 +23,4 @@
 
 - [Notebook](02-Lab.ipynb) 
 - [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Imago-SDRUK/EMBED2Social-Workshop-2026/main?urlpath=%2Fdoc%2Ftree%2F02-Lab.ipynb)
+- [![JupyterLite](https://github.com/jupyterlite/jupyterlite/raw/refs/heads/main/docs/_static/badge.svg)](assets/jupyter-lite/index.html)
