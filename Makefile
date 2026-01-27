@@ -1,4 +1,4 @@
-.PHONY: build_jlite serve_jlite
+.PHONY: build_site build_jlite serve_jlite
 
 build_site:
 	# Render slides
@@ -10,14 +10,14 @@ build_site:
 	# Post-render provision
 	rm -rf docs/slides
 	cp -r slides/ docs/slides/
-	#cp -r jupyter-lite/dist docs/assets/jupyter-lite
+	cp -r jupyter-lite/dist docs/assets/jupyter-lite
 
 build_jlite:
 	### To be run inside a fresh container from repo home ###
 	# Move assets to landing folder
 	rm jupyter-lite/content/*
 	cp 02-Lab.ipynb jupyter-lite/content/
-	cp assets/uk_lsoa_london_embeds_2024.geojson jupyter-lite/content/
+	cp assets/data/uk_lsoa_london_embeds_2024.geojson jupyter-lite/content/
 	# Set up environment
 	conda create -yn jlite
 	rm -rf jupyter-lite/dist jupyter-lite/.jupyterlite.doit.db
